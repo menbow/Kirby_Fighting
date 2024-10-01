@@ -1,0 +1,4286 @@
+fileFormatVersion: 2
+guid: 39c5b8fc3cd736647bb3c1035d3d452a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 458
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab91c803905d2648a167b90b721ef29
+      internalID: -1215367184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_1
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 458
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b505727d10630a245b17ff36dab84cc0
+      internalID: -325648198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_2
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 458
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a4b53bc796b50843a79cfcbfcc06f2b
+      internalID: -992367370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_3
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 457
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68546e9b4f92642498b5cf252013989d
+      internalID: -867815747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_4
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 457
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ec5b5d9a5f739c4e9cc06f3424906cb
+      internalID: 641163778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_5
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 457
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 734dc00e48d0cf542bdd64d8fbe49b50
+      internalID: -687176510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_6
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 457
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a63c81c9b563bb428da120adab9ba4c
+      internalID: 1756236364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_7
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 457
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d9dc7d1f3c704f4baade193029decd2
+      internalID: 1189946120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_8
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 457
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d3ae2f6b66f0d04eb759cedcdf2ca3a
+      internalID: -304646346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_9
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 457
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9059c028d88cf4142b73393cc289ba79
+      internalID: -1725631858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_10
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 457
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f12f70ad8694640be62d1bc46b926b
+      internalID: 207212139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_11
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 457
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0805d42a1cdff054db3413afd15e6aaf
+      internalID: -1440327507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_12
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 457
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e363bdca14deaf749a651464842da3b5
+      internalID: 1563322786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_13
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 457
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56e913bc12f18ee4680ab929152033e0
+      internalID: -1191969249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_14
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 457
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86bb9dea59255e544a964537d9f8e4be
+      internalID: 1347120740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_15
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 458
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d4a02599712fb4ab55d458dc8b11b3
+      internalID: 1771528533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_16
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 462
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fedbceb463267864c96413a6355eb322
+      internalID: -1228150278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_17
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 464
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e069ff7f65f5c8b4aaaa39802134ca36
+      internalID: 1595068752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_18
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 458
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bb5738e8a425094cb53601729032985
+      internalID: 2004843473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_19
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 418
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e98098cab15523c4bb712c06551bad32
+      internalID: 791362575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_20
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 418
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90dc963292d4a2042ba630b6afdaff0a
+      internalID: -1459177732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_21
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 418
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1190ef423a1c7b749ad6e26f0a14a296
+      internalID: 519939363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_22
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 418
+        width: 35
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a631d24ed072af459b815e6b8ce5189
+      internalID: -1353940412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_23
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 418
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426eac19420c1eb41abfba2f5c684daa
+      internalID: -117788648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_24
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 418
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5300071a98c2f0f4ab988757cb3b9dd8
+      internalID: -1274391610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_25
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 418
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f302c490479dd4881b1864dc063e31
+      internalID: -883193940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_26
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 418
+        width: 33
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4f6beb02678de6499a2a77ec36a5390
+      internalID: 1302520025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_27
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 418
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb0d23b08395eb41a217e545af88ab3
+      internalID: -1378246132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_28
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 418
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da38c79ea0381a845ac7aff8904370b9
+      internalID: -271048365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_29
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 418
+        width: 33
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 849eca6e298a91b419ae81ca86d75018
+      internalID: -963366417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_30
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 418
+        width: 13
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e1eae1326bf0a541a9808a2142e3c3f
+      internalID: -1948059741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_31
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 418
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c306990887e45a04a8a5ecf2fabf407e
+      internalID: -1447018183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_32
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 409
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7866e90bcfc0030479f871968c533d9b
+      internalID: -121950028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_33
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 405
+        width: 41
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61840c66962bf3741989ff80adc7be6f
+      internalID: 2131471496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_34
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 409
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d586b9c5a99af8a4b954bbf67cadd94e
+      internalID: -1066074005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_35
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 407
+        width: 55
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89049de09e1cb0344a3f74833f2c026e
+      internalID: -1838819690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_36
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 408
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bedc4a7d5b633947bcf5e0ead82d494
+      internalID: -681933532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_37
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 409
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 486e8f0ac0c55ee43b8fb80362344b2c
+      internalID: -430374839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_38
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 381
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d34daed299e35f44c9b17d4da5ff050d
+      internalID: 527926198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_39
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 381
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d9d308628eafa4fb1e557bdfa93eb2
+      internalID: 665172458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_40
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 381
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 215ed61afb1391b439429b43ff52b762
+      internalID: -928748635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_41
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 376
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50e4309955b27f3449ffd62acad8cd6c
+      internalID: 1323215228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_42
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 376
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a56182355ffc8124d98e69edd91004d4
+      internalID: -1935697293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_43
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 376
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f52e3a0ba77bdb4595390e3477fd8b5
+      internalID: 936148731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_44
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 377
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83ffb593de87d55479810f9b90f71db2
+      internalID: 1611010919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_45
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 377
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be25779fb66e6ce4888b8710b441e65c
+      internalID: -247280185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_46
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 377
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8843c8719c0eedb41924c017fb1549b2
+      internalID: -794277069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_47
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 378
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8583afb92439d36498ef1439d00e0faa
+      internalID: 85775538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_48
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 377
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd25488224144a14da0406c2eba13e7f
+      internalID: 831304129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_49
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 376
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f104c6e8143d977488b97a9eb7268c42
+      internalID: -226765247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_50
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 376
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da3da6913d1aaf74e8a4aee47e36bad4
+      internalID: 2078092107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_51
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 378
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67a4b0e0f418787438f79d4d8b68da1f
+      internalID: -582502562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_52
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 358
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f06a4a26da06e44b9b0890b73993863
+      internalID: -1077322967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_53
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 353
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9897a39b414d7c340ae8c3cb875411b7
+      internalID: 1965465489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_54
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 353
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41ea8777fb513704d86c86fe37f74d27
+      internalID: -1211321159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_55
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 346
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc2969765a1938f44b890ce5a7526f3a
+      internalID: -264412056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_56
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 346
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c9083fc5405c644969266cfa65d89c
+      internalID: -901822221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_57
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 346
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e5e0baa6054bda4fa7463c35c5fe040
+      internalID: -396060994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_58
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 334
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32416a00aac4421438d6c65683799836
+      internalID: 589600954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_59
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 334
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f405126f3380148a79b7da9c66898d
+      internalID: 360903466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_60
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 334
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 261630caa0941c54ab4f24277190fdd9
+      internalID: -225811947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_61
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 334
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a3eafb72feb95b418659b4afea09a36
+      internalID: -338899311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_63
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 335
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd1227491fd58eb42adc9267ee93e007
+      internalID: 763331633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_64
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 334
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b59d50ddb0b175a4695ac99bc603383e
+      internalID: 612986630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_65
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 336
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 804c9565c04780e4298c1860d3bc09a4
+      internalID: -1545055757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_66
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 335
+        width: 43
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c330b3e188cc33e41b5d08cfb258abaa
+      internalID: -1090866710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_67
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 335
+        width: 44
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bab521de376d87a49978a2d786acdea0
+      internalID: 1953817433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_68
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 335
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb270bd7f7ee5af4493b61014e995a48
+      internalID: -925410592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_69
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 309
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23e8be7a5dbb66a4e93ff257f7d85e4b
+      internalID: 1036679318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_70
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 309
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a0e147cf83f0214b8225d4449367960
+      internalID: -851734426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_71
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 309
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c026d92670aeefc449ff3622e88ea82d
+      internalID: 269242177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_72
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 291
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a7c8dc40f36c4245b8a0da6f34c13d2
+      internalID: 1433023523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_73
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 291
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6442baa3098adad49a576a8bd8a207c0
+      internalID: -729922194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_74
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 293
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20318ce364933c641a41d73f9b88593e
+      internalID: 1919945104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_75
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 292
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 463d9e39265cdc4489937055cda412a7
+      internalID: -1196008206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_76
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 293
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ec9b38cdd14bb844bdd0813656251c1
+      internalID: -1085042782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_77
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 295
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 484509836b17ca54680081825e37c527
+      internalID: 785895945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_78
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 298
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccfb7538ebf1c074fba7eb7bf434dd92
+      internalID: 895964878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_79
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 293
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33beea19742e6944f92c335b899c8f1b
+      internalID: 464746075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_80
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 293
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3096bef5db9e120478810ba785a14b19
+      internalID: -1845637111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_81
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 293
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 858666422302cfc42a54e859851ad198
+      internalID: -1724223816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_82
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 303
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7175d69b75b5d84095221c9fab60ab5
+      internalID: 1674658061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_83
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 303
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30e8012f0acc9ac4384206599d9f237c
+      internalID: -253510239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_84
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 302
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b0833bc8c16a29429c9879266346ac3
+      internalID: 1147200045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_85
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 303
+        width: 37
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfdcfce589ace3e4db8d7357971915c8
+      internalID: 1064907767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_86
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 303
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e9a36f22ccae2144b565defc8738196
+      internalID: 1429602746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_87
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 300
+        width: 55
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d97dcf74daf98704fb0f27fb333699f1
+      internalID: -1971831668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_88
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 301
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5884ffed412155c4abe85a81734d378b
+      internalID: -150946088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_89
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 302
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af563c2c8a8f56a40883facd597a9763
+      internalID: -1442617793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_90
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 275
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e23d1e983ddd244f97e26d4c375ebab
+      internalID: -171261366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_91
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 275
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d53ed9b6083039e4785c6696762c7798
+      internalID: 409047197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_92
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 275
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7cd55be701386348aade54ffe659f08
+      internalID: 428106233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_93
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 253
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef289f65d0160e34d8dd45ca1c365a7a
+      internalID: -770220357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_94
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 253
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca753b97e25ea104e898ac9c82f213c1
+      internalID: -242823236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_95
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 253
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb4109955657d94a8aaba17a0c2d8c3
+      internalID: 1869893128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_96
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 253
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf803232a2293846bd25761c55354ba
+      internalID: -1739598199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_97
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 252
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6142c84ce23c58a41b4ed4e0fa9261b1
+      internalID: -859400222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_98
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 252
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0deaef70bf369d24dab9a491748f625f
+      internalID: 1999511837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_99
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 253
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee5f18643622594cacaa6348f39ec07
+      internalID: 1736910924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_100
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 253
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a90a57d5674e994d93425fa3c325b0a
+      internalID: -1619999697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_101
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 259
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbaa5d77f960d114d9e82e97e4ca0601
+      internalID: 1935427321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_102
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 259
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e49792173d94c545bb419a3524f5cca
+      internalID: -686614818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_103
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 253
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e4af2c8905ffa84a976d704da06366d
+      internalID: -955202390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_104
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 253
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 921b1659b9ab0134fb58c95e783129e3
+      internalID: -960059278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_105
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 231
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64bd9e7a07e7e7548ad933ac89adbf98
+      internalID: 2037508462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_106
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 231
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a68c79644617e94ab1dec7d54493bbd
+      internalID: 292255527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_107
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 231
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d07a5adda99305747a7b3024bfbfa4dc
+      internalID: 1058055563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_108
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 212
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c215b7f2325b2428bbc6e35be2d381
+      internalID: -666308641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_109
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 212
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2796277d56a6e754498e3383daaf9fa1
+      internalID: 720104358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_110
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 212
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c73426badedcf41b1e11de581723d7
+      internalID: 766654073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_111
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 212
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef641ddf25553b540af512cee705ae5d
+      internalID: 539259594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_112
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 213
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d4aadb340ddf645baa25508413baf7
+      internalID: -504498077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_113
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 213
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9300f1760d1813d48b40e2369b8cc050
+      internalID: -800941492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_114
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 213
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad905b913b2a3c94ea961503e529b17b
+      internalID: 1231014393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_115
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 213
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b80c20ab73a6584e816a7ae29e0c173
+      internalID: 347935610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_116
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 213
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9419d39e7b6868a4db88aa9c0cb105eb
+      internalID: -1105986885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_117
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 214
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff8c95559731e3e47994961108369bbb
+      internalID: -1981534959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_118
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 215
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b207e49047e5d244f9091a8214ab443c
+      internalID: 146352449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_119
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 210
+        width: 72
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ccb68896ea89cd47b2e762f87908161
+      internalID: 1453974136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_120
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 210
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe5770495e0590c439dd9468f1deb346
+      internalID: 1200136166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_121
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 210
+        width: 37
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8be3bcb1345ba349b5dca8ab94a6c56
+      internalID: -1741743263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_122
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 210
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb058e935951dc54086f2175d69812f8
+      internalID: -699665285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_123
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 188
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c8ec47a84a8257498ecbf8e248104fb
+      internalID: -2018693600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_124
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 188
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56916bf450a35bc47b7d4d3b5982354f
+      internalID: -2060481902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_125
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 188
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3daa45457c45cc74895e23c986942081
+      internalID: -1658583584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_126
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 164
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7571f943e6bf376478a04ec0bc90e631
+      internalID: -989492027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_127
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 164
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01e498bcb2b266049b53cad1fff489d5
+      internalID: 635849009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_128
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 164
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20d56c274d5d1cf4693044dc97cd5127
+      internalID: 1208310297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_129
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 164
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67790db4715f9a8428e5ea3d96a3a8d4
+      internalID: -906011134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_130
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 164
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 045fec4ac65f2a947864896037d930d1
+      internalID: 1291481484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_131
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 164
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e01b681605f9ff64b8d7225b8d25a056
+      internalID: -939770951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_132
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 165
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0371bffbe63cbeb47a79d1481dc12b5b
+      internalID: -1682051332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_133
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 165
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0546c20fea5a4984fa73fd0c75464402
+      internalID: -1477342814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_134
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 165
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 123050bed81a74c4788faef3807c075b
+      internalID: -2006826253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_135
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 165
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caa6ea23385389e469173e25f2cd082e
+      internalID: -831702962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_136
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 165
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d39383788d7d4845bda8038a6302112
+      internalID: -362447421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_137
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 139
+        width: 27
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84680708d8e66c948a054c64dc013aa5
+      internalID: -1969731720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_138
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 146
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96826a26ae9a3424a8c054b54c279750
+      internalID: 251068065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_139
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 178
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa2de265131a6049bc52501571b08e8
+      internalID: -1752708038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_140
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 147
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18b4fa16dc81c8d44bfa564d72e8a98d
+      internalID: 1343132867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_141
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 147
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b549ee490a1c54496e0f3df0500071
+      internalID: 1759070979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_142
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 147
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9baf15666617874789c9ae1e3593c21
+      internalID: 1224777605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_143
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 152
+        width: 40
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 373c196ee7cfee248a0fc82802c7b2bd
+      internalID: -698887495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_144
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 152
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c365f09dc264e1946bb4a151d7328214
+      internalID: 291458147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_145
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 152
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15a9719305cde264ca7d648d5238b1fb
+      internalID: 1576595748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_146
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 152
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 700cad881f20fbd4f887537bfe38291f
+      internalID: 1417472678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_147
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 152
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a93b866981c55694080255a72055f56c
+      internalID: -1201117224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_148
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 152
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63afc21e8e09dff40b4ed308f90d26cc
+      internalID: -1314264183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_149
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 104
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 842f1a3e0a47c2c4083409b2b6911b6b
+      internalID: -302138205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_150
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 104
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57eb24255c187f44cbeaf42749fa2cc5
+      internalID: -1298470612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_151
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 104
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6890bdaf05a6d67488d35d57be2d842b
+      internalID: 1511360733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_152
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 117
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43df55593da84ac42b8df70b3f84c260
+      internalID: -1874814058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_153
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 117
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a93f6774a637e9c4e8dec6eab60d469d
+      internalID: 987978165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_154
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 117
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97f1cc7f839753d41866cf911f8329c7
+      internalID: -197443479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_155
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 117
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ace9b982a2590834da8407d2e379af4b
+      internalID: 996009247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_156
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 117
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f7d6cb086ba014f83f326b6e09d577
+      internalID: -1031188791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_157
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 117
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 451829987a7c7874b9eec65826460c06
+      internalID: -274990194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_158
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 117
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6284ccd593dc954e85b9e9f22b8cbf0
+      internalID: 1212378211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_159
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 117
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc38e257c8777274b90f14f032964ff5
+      internalID: 798099921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_160
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 117
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45553c195980f244880c2a6f0a2b6f4e
+      internalID: -680846159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_161
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 117
+        width: 39
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 296c6ae27fa99f74ea44c0dbc8a8e804
+      internalID: 133570791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_162
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 117
+        width: 38
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab17c8a3e85944842b84ab45a31555fe
+      internalID: -1961680804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_163
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 99
+        width: 41
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 693191d8408991c46811e3557d32526d
+      internalID: -514582125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_164
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 102
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1269434eb6e32f348a649cfece99740a
+      internalID: 1913058818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_165
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 107
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecd274becd133f04c9dc5278ff2bf7ae
+      internalID: 1024376793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_166
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 100
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1860872876c4c0b47813088e6a11fb8c
+      internalID: 1790521223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_167
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 8
+        width: 204
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94dd9881103b34d4cb71404ec24387a4
+      internalID: -2087351532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_168
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 68
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb3b5b23c5d9df94d99292db61462115
+      internalID: 1176632383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_169
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 68
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec1de16d089cc4c4383ad784a1a4ce44
+      internalID: -1887364285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_170
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 68
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9fb1f76d04db9a4b8e19c84339353b3
+      internalID: 284691079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_171
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 55
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 288d65097b11f7b4ca7dcb3c8e634d74
+      internalID: -1882750903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_172
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 55
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8091d829c146ab4bb978c95b9bbaf24
+      internalID: 1318609529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_173
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 55
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd2f814bedc9574ba604c9d92b9ca76
+      internalID: -652523079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_174
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 52
+        width: 41
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b211e5ebee7660a4d9c83b9f609acd7e
+      internalID: -436501226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_175
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 56
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fb707d993b80004ea68dec3b36cd693
+      internalID: 444664681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_176
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 5
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aaaa77d61e859844846f7e4f59df54f
+      internalID: 2039956506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_177
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 5
+        width: 53
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34dc3e272015fa14794ac0b9722b9289
+      internalID: -882709479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_178
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 17
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a00dceb3306e464eb250aa27ffe9ec9
+      internalID: 1869020470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_179
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 33
+        width: 48
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7d4c16be7d737b4ba8c7180b2a59523
+      internalID: -2037411963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_180
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 17
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5387f875f71b9b9458c9c223bc89828b
+      internalID: 2059721116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_181
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 33
+        width: 48
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6db0ddc140214234aa6c9c9efb5860e2
+      internalID: 158772455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_182
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 17
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf9762e87adffbb47b131dfa014c9363
+      internalID: -736602520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_183
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 15
+        width: 112
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b9e3ad0bdc62df4ea8f360df46e95fd
+      internalID: 347703512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_184
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 14
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b02c2d3ce68a64fa873adbc7e46ab0
+      internalID: 1784798454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_185
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 14
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88f562aec3c813041a61d0225c91d70a
+      internalID: 1293349476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_186
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 14
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c6d8f87261362e40991ce1fcd34e64d
+      internalID: 711618592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_187
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 14
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04c289b542565b149b8bf331b5822a5f
+      internalID: -1897343726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_188
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 14
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f84aa393bfa4b0f4081dbaa5167a4a3d
+      internalID: -1159275751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_189
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 13
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b87906bfea6deed4ca43119a9d0a4b8b
+      internalID: 1144229844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_0: -1215367184
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_1: -325648198
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_10: 207212139
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_100: -1619999697
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_101: 1935427321
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_102: -686614818
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_103: -955202390
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_104: -960059278
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_105: 2037508462
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_106: 292255527
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_107: 1058055563
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_108: -666308641
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_109: 720104358
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_11: -1440327507
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_110: 766654073
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_111: 539259594
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_112: -504498077
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_113: -800941492
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_114: 1231014393
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_115: 347935610
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_116: -1105986885
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_117: -1981534959
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_118: 146352449
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_119: 1453974136
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_12: 1563322786
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_120: 1200136166
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_121: -1741743263
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_122: -699665285
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_123: -2018693600
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_124: -2060481902
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_125: -1658583584
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_126: -989492027
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_127: 635849009
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_128: 1208310297
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_129: -906011134
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_13: -1191969249
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_130: 1291481484
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_131: -939770951
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_132: -1682051332
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_133: -1477342814
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_134: -2006826253
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_135: -831702962
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_136: -362447421
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_137: -1969731720
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_138: 251068065
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_139: -1752708038
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_14: 1347120740
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_140: 1343132867
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_141: 1759070979
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_142: 1224777605
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_143: -698887495
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_144: 291458147
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_145: 1576595748
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_146: 1417472678
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_147: -1201117224
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_148: -1314264183
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_149: -302138205
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_15: 1771528533
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_150: -1298470612
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_151: 1511360733
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_152: -1874814058
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_153: 987978165
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_154: -197443479
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_155: 996009247
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_156: -1031188791
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_157: -274990194
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_158: 1212378211
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_159: 798099921
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_16: -1228150278
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_160: -680846159
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_161: 133570791
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_162: -1961680804
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_163: -514582125
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_164: 1913058818
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_165: 1024376793
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_166: 1790521223
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_167: -2087351532
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_168: 1176632383
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_169: -1887364285
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_17: 1595068752
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_170: 284691079
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_171: -1882750903
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_172: 1318609529
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_173: -652523079
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_174: -436501226
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_175: 444664681
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_176: 2039956506
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_177: -882709479
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_178: 1869020470
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_179: -2037411963
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_18: 2004843473
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_180: 2059721116
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_181: 158772455
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_182: -736602520
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_183: 347703512
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_184: 1784798454
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_185: 1293349476
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_186: 711618592
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_187: -1897343726
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_188: -1159275751
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_189: 1144229844
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_19: 791362575
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_2: -992367370
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_20: -1459177732
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_21: 519939363
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_22: -1353940412
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_23: -117788648
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_24: -1274391610
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_25: -883193940
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_26: 1302520025
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_27: -1378246132
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_28: -271048365
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_29: -963366417
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_3: -867815747
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_30: -1948059741
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_31: -1447018183
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_32: -121950028
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_33: 2131471496
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_34: -1066074005
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_35: -1838819690
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_36: -681933532
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_37: -430374839
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_38: 527926198
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_39: 665172458
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_4: 641163778
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_40: -928748635
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_41: 1323215228
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_42: -1935697293
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_43: 936148731
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_44: 1611010919
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_45: -247280185
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_46: -794277069
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_47: 85775538
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_48: 831304129
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_49: -226765247
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_5: -687176510
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_50: 2078092107
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_51: -582502562
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_52: -1077322967
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_53: 1965465489
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_54: -1211321159
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_55: -264412056
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_56: -901822221
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_57: -396060994
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_58: 589600954
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_59: 360903466
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_6: 1756236364
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_60: -225811947
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_61: -338899311
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_62: -1940359302
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_63: 763331633
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_64: 612986630
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_65: -1545055757
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_66: -1090866710
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_67: 1953817433
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_68: -925410592
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_69: 1036679318
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_7: 1189946120
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_70: -851734426
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_71: 269242177
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_72: 1433023523
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_73: -729922194
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_74: 1919945104
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_75: -1196008206
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_76: -1085042782
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_77: 785895945
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_78: 895964878
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_79: 464746075
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_8: -304646346
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_80: -1845637111
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_81: -1724223816
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_82: 1674658061
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_83: -253510239
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_84: 1147200045
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_85: 1064907767
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_86: 1429602746
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_87: -1971831668
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_88: -150946088
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_89: -1442617793
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_9: -1725631858
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_90: -171261366
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_91: 409047197
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_92: 428106233
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_93: -770220357
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_94: -242823236
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_95: 1869893128
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_96: -1739598199
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_97: -859400222
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_98: 1999511837
+      DS DSi - Kirby Super Star Ultra - Fighter Kirby 1_99: 1736910924
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
