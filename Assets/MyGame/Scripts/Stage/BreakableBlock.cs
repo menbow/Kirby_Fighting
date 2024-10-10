@@ -11,7 +11,7 @@ public class BreakableBlock : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Atack"))
         {
-            Debug.Log("aaaa");
+            //Debug.Log("aaaa");
             Destroy(gameObject);
         }
 
