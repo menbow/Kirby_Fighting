@@ -17,6 +17,8 @@ public enum KirbyState
     Jump_FloatEndFalling,
     Jump_FloatJump,
     DoorExit,
+    Dash,
+    Dash_Stop,
 }
 
 [RequireComponent(typeof(StopWatch))]
@@ -118,8 +120,10 @@ public class KirbyMove : MonoBehaviour
 
     }
 
-    //Action Anim_Walk = () => { };   中括弧で複数命令が書けるラムダ式voidだとこう
+    //Action Anim_Walk = () => { };   中括弧で複数命令が書けるラムダ式voidだとこう  ALT+Enter
     void Anim_Walk() { Anim_Action("Walk"); moveState = KirbyState.Walk; }
+    void Anim_Dash() { Anim_Action("Dash"); moveState = KirbyState.Dash; }
+    void Anim_Dash_Stop() { Anim_Action("DashStop"); moveState = KirbyState.Dash_Stop; }
     public void Anim_Idle() { Anim_Action("Idle"); moveState = KirbyState.Idle; }
     void Anim_Jump_Start() { Anim_Action("Jump_Start");  moveState = KirbyState.Jump_Start; }
     void Anim_Jump_Falling() { Anim_Action("Jump_Falling"); moveState = KirbyState.Jump_Falling; }
@@ -128,11 +132,8 @@ public class KirbyMove : MonoBehaviour
     void Anim_Jump_FloatEndFalling() { Anim_Action("Jump_FloatEndFalling "); moveState = KirbyState.Jump_FloatEndFalling; }
     void Anim_Floating_Start() { Anim_Action("Floating_Start"); moveState = KirbyState.Floating_Start; }
     public void Anim_DoorExit() { Anim_Action("DoorExit"); moveState = KirbyState.DoorExit; }
-
     //浮遊中の手パタパタのアニメーション
     void Anim_FloatJump() { Anim_Action("Jump_FloatJump"); moveState = KirbyState.Jump_FloatJump; }
-    //void Anim_While_floating( bool forced = false ) { Anim_Action("Floating_Flying" , forced); moveState = KirbyState.While_floating; }
-    //void Anim_While_floating( bool forced = false ) { Anim_Action("Jump_FloatFalling" , forced); moveState = KirbyState.While_floating; }
     void Anim_Floating_End() { Anim_Action("Floating_End"); moveState = KirbyState.Floating_End; }
 
     //void Anim_Jump() => animator.SetBool("jumping", isGround && Input.GetButtonDown("Jump"));
@@ -184,13 +185,6 @@ public class KirbyMove : MonoBehaviour
     private void MoveHorizontal(float axisH, float tempVelisityY, bool isGround)
     {
 
-        //if (rb.velocity.x == 0)
-        //{
-        //    //isWalking = false;
-        //}
-        //else{ isWalking = true; Anim_Walk(); }
-
-
         if (isGround)//      地上
         {
             if (Mathf.Abs(axisH) != 0 && moveState != KirbyState.Walk && moveState != KirbyState.Jump_Start && moveState != KirbyState.Floating_End)
@@ -217,17 +211,23 @@ public class KirbyMove : MonoBehaviour
             //膨らんで無かったら通常のにする
         }
 
-        //Debug.Assert(isWalking, "歩いてない！");
 
         moveX = axisH * 10;
 
         Vector2 move = new Vector2(moveX, tempVelisityY); //最終的な動き
 
-        if (isGround && Input.GetButtonDown("Dash"))
+        if (isGround && Input.GetButton("Dash"))
         {
+            Anim_Dash();
             move.x = dashSpeed;
             move.y = 0.0f;
         }
+
+        if (Input.GetButtonUp("Dash"))
+        {
+            Anim_Dash_Stop();
+        }
+
         rb.velocity = move;
 
     }
@@ -244,7 +244,7 @@ public class KirbyMove : MonoBehaviour
             StartCoroutine(aaa.BreathCoroutine(transform.localScale.x));
 
 
-            Debug.Log("息吐き");
+            //Debug.Log("息吐き");
             Anim_Floating_End();
             SoundsManager.SE_Play(SE.flyspit);
             //息を吐く処理をさせたい
@@ -267,8 +267,10 @@ public class KirbyMove : MonoBehaviour
     /// <summary>/// 地面に立っているかどうかを調べる /// </summary>
     void OnGroundSearch()
     {
+        //サークルキャストは半径を小さくして壁の判定もとってしまうのを防いでいる
+
         //distance:  「引数名：」を書いてやることでパット見で何の引数書いてるかわかりやすくなる　　また引数名：を書けば引数の順番も変えられる
-        isGround = Physics2D.CircleCast(transform.position, 1.0f, Vector2.down, distance: 0.4f, Ground);
+        isGround = Physics2D.CircleCast(transform.position, 0.2f, Vector2.down, distance: 1f, Ground);
         //めんどくさかったら　　rd.velocity.y == 0　でとるのもあり
         var GroundTagName = isGround ? isGround.collider.gameObject.tag : "";
         //サークルキャストが地面に当たったら、当たったもののタグをとる

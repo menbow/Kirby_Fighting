@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8452029708143204658}
   - component: {fileID: 6125511720625328263}
   - component: {fileID: -6048290539836546803}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Breath
   m_TagString: Atack
   m_Icon: {fileID: 0}
