@@ -1,0 +1,830 @@
+fileFormatVersion: 2
+guid: 02b118f7555579447afbfc97b807ecfe
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "SNES - Kirby Super Star Kirbys Fun Pak - Castle Interior & Exterior
+        Tileset(\u900F\u904E_\u77F3\u30BF\u30A4\u30EB)_0"
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 283
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74583048a88aabb4c8e663b4a884929d
+      internalID: -1056209385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SNES - Kirby Super Star Kirbys Fun Pak - Castle Interior & Exterior
+        Tileset(\u900F\u904E_\u77F3\u30BF\u30A4\u30EB)_6"
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 255
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a48884a9dc04164a98902f96efca7b4
+      internalID: 1125120635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SNES - Kirby Super Star Kirbys Fun Pak - Castle Interior & Exterior
+        Tileset(\u900F\u904E_\u77F3\u30BF\u30A4\u30EB)_7"
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 196
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0a143fca16858c449e8d420afcbc275
+      internalID: -423607075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SNES - Kirby Super Star Kirbys Fun Pak - Castle Interior & Exterior
+        Tileset(\u900F\u904E_\u77F3\u30BF\u30A4\u30EB)_8"
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 226
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99854e06013a5f04fa1cc72703277fa1
+      internalID: 455123286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SNES - Kirby Super Star Kirbys Fun Pak - Castle Interior & Exterior
+        Tileset(\u900F\u904E_\u77F3\u30BF\u30A4\u30EB)_9"
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 211
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 912892a26408c914eb2bc41ea1d91a05
+      internalID: -1840754849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SNES - Kirby Super Star Kirbys Fun Pak - Castle Interior & Exterior
+        Tileset(\u900F\u904E_\u77F3\u30BF\u30A4\u30EB)_10"
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 227
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db50ba3499053464ebd7e9a83d535941
+      internalID: -1145294603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SNES - Kirby Super Star Kirbys Fun Pak - Castle Interior & Exterior
+        Tileset(\u900F\u904E_\u77F3\u30BF\u30A4\u30EB)_11"
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 223
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea2621f7c15d7c74aabd2f1ada384a8d
+      internalID: -542851995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SNES - Kirby Super Star Kirbys Fun Pak - Castle Interior & Exterior
+        Tileset(\u900F\u904E_\u77F3\u30BF\u30A4\u30EB)_12"
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 216
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdd9759db1ae6484a94551a12c193b7b
+      internalID: -692548385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SNES - Kirby Super Star Kirbys Fun Pak - Castle Interior & Exterior
+        Tileset(\u900F\u904E_\u77F3\u30BF\u30A4\u30EB)_13"
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 213
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5331cbea6cbbc044e9f5aba9b0df2fa4
+      internalID: 743110682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SNES - Kirby Super Star Kirbys Fun Pak - Castle Interior & Exterior
+        Tileset(\u900F\u904E_\u77F3\u30BF\u30A4\u30EB)_14"
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 189
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1383b18f16a1d3b46b0396c629f2338e
+      internalID: 202937856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SNES - Kirby Super Star Kirbys Fun Pak - Castle Interior & Exterior
+        Tileset(\u900F\u904E_\u77F3\u30BF\u30A4\u30EB)_15"
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 189
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 479542f5324e39941bea96a5525dba97
+      internalID: 226353671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SNES - Kirby Super Star Kirbys Fun Pak - Castle Interior & Exterior
+        Tileset(\u900F\u904E_\u77F3\u30BF\u30A4\u30EB)_16"
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 179
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a664c12288f7da64580e748427e49892
+      internalID: 1755838665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SNES - Kirby Super Star Kirbys Fun Pak - Castle Interior & Exterior
+        Tileset(\u900F\u904E_\u77F3\u30BF\u30A4\u30EB)_17"
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 155
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c98190a302834a9459e6ff30e1dabbbd
+      internalID: 38203307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SNES - Kirby Super Star Kirbys Fun Pak - Castle Interior & Exterior
+        Tileset(\u900F\u904E_\u77F3\u30BF\u30A4\u30EB)_18"
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 119
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2db6b2d989e640b41bebf8f901bc8bf4
+      internalID: -1540357265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SNES - Kirby Super Star Kirbys Fun Pak - Castle Interior & Exterior
+        Tileset(\u900F\u904E_\u77F3\u30BF\u30A4\u30EB)_1"
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 189
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3516ee88d90f9b146a93f03fb3bcdfb2
+      internalID: 1786755215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SNES - Kirby Super Star Kirbys Fun Pak - Castle Interior & Exterior
+        Tileset(\u900F\u904E_\u77F3\u30BF\u30A4\u30EB)_2"
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 220
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f78921e643d1b2d4cbc63dcefb46837c
+      internalID: 633160132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SNES - Kirby Super Star Kirbys Fun Pak - Castle Interior & Exterior
+        Tileset(\u900F\u904E_\u77F3\u30BF\u30A4\u30EB)_3"
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 244
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44c8c230de0a2a5459dab1f72ef568a5
+      internalID: 2137069170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SNES - Kirby Super Star Kirbys Fun Pak - Castle Interior & Exterior
+        Tileset(\u900F\u904E_\u77F3\u30BF\u30A4\u30EB)_4"
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 268
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc66e14d7201c74bba2d5e07d76d793
+      internalID: -1323317147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SNES - Kirby Super Star Kirbys Fun Pak - Castle Interior & Exterior
+        Tileset(\u900F\u904E_\u77F3\u30BF\u30A4\u30EB)_5"
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 251
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f0b402d07078b41a914f6fef62eeff
+      internalID: -465751403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SNES - Kirby Super Star Kirbys Fun Pak - Castle Interior & Exterior
+        Tileset(\u900F\u904E_\u77F3\u30BF\u30A4\u30EB)_19"
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 235
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 712ee0fc423c21345983ca18f8d3918b
+      internalID: -2116691503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SNES - Kirby Super Star Kirbys Fun Pak - Castle Interior & Exterior
+        Tileset(\u900F\u904E_\u77F3\u30BF\u30A4\u30EB)_20"
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 259
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beb4be975d4a27d4a997899860ce0297
+      internalID: -109066802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SNES - Kirby Super Star Kirbys Fun Pak - Castle Interior & Exterior
+        Tileset(\u900F\u904E_\u77F3\u30BF\u30A4\u30EB)_21"
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 155
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fe1582c241e58149b8d32a18ca643ff
+      internalID: 763089984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SNES - Kirby Super Star Kirbys Fun Pak - Castle Interior & Exterior
+        Tileset(\u900F\u904E_\u77F3\u30BF\u30A4\u30EB)_22"
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 119
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af8320b3d49852c478dcac25055363e4
+      internalID: 1881941812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SNES - Kirby Super Star Kirbys Fun Pak - Castle Interior & Exterior
+        Tileset(\u900F\u904E_\u77F3\u30BF\u30A4\u30EB)_23"
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 203
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 897a7b1a9b6cade43a4d3cbf0309a114
+      internalID: -903272346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SNES - Kirby Super Star Kirbys Fun Pak - Castle Interior & Exterior
+        Tileset(\u900F\u904E_\u77F3\u30BF\u30A4\u30EB)_24"
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 251
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8473ad74d7290f74d9266a16cf5a1c61
+      internalID: 1399196064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SNES - Kirby Super Star Kirbys Fun Pak - Castle Interior & Exterior
+        Tileset(\u900F\u904E_\u77F3\u30BF\u30A4\u30EB)_25"
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 251
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d14b3ea4779d84418b1958d6ee36928
+      internalID: 396455329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SNES - Kirby Super Star Kirbys Fun Pak - Castle Interior & Exterior
+        Tileset(\u900F\u904E_\u77F3\u30BF\u30A4\u30EB)_26"
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 227
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf933ff046025e347a74e583cc0728da
+      internalID: -1172671084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SNES - Kirby Super Star Kirbys Fun Pak - Castle Interior & Exterior
+        Tileset(\u900F\u904E_\u77F3\u30BF\u30A4\u30EB)_27"
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 203
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e3b2c906c37c12429479fc900b56b8e
+      internalID: 499962835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SNES - Kirby Super Star Kirbys Fun Pak - Castle Interior & Exterior
+        Tileset(\u900F\u904E_\u77F3\u30BF\u30A4\u30EB)_28"
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 179
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4a731a15f1276f4190ddac1d13c50fd
+      internalID: -1248547778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "SNES - Kirby Super Star Kirbys Fun Pak - Castle Interior & Exterior
+        Tileset(\u900F\u904E_\u77F3\u30BF\u30A4\u30EB)_29"
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 179
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ec8bc345ab0e74a80573e5001ea9b8
+      internalID: 1800517677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "SNES - Kirby Super Star Kirbys Fun Pak - Castle Interior & Exterior Tileset(\u900F\u904E_\u77F3\u30BF\u30A4\u30EB)_0": -1056209385
+      "SNES - Kirby Super Star Kirbys Fun Pak - Castle Interior & Exterior Tileset(\u900F\u904E_\u77F3\u30BF\u30A4\u30EB)_1": 1786755215
+      "SNES - Kirby Super Star Kirbys Fun Pak - Castle Interior & Exterior Tileset(\u900F\u904E_\u77F3\u30BF\u30A4\u30EB)_10": -1145294603
+      "SNES - Kirby Super Star Kirbys Fun Pak - Castle Interior & Exterior Tileset(\u900F\u904E_\u77F3\u30BF\u30A4\u30EB)_11": -542851995
+      "SNES - Kirby Super Star Kirbys Fun Pak - Castle Interior & Exterior Tileset(\u900F\u904E_\u77F3\u30BF\u30A4\u30EB)_12": -692548385
+      "SNES - Kirby Super Star Kirbys Fun Pak - Castle Interior & Exterior Tileset(\u900F\u904E_\u77F3\u30BF\u30A4\u30EB)_13": 743110682
+      "SNES - Kirby Super Star Kirbys Fun Pak - Castle Interior & Exterior Tileset(\u900F\u904E_\u77F3\u30BF\u30A4\u30EB)_14": 202937856
+      "SNES - Kirby Super Star Kirbys Fun Pak - Castle Interior & Exterior Tileset(\u900F\u904E_\u77F3\u30BF\u30A4\u30EB)_15": 226353671
+      "SNES - Kirby Super Star Kirbys Fun Pak - Castle Interior & Exterior Tileset(\u900F\u904E_\u77F3\u30BF\u30A4\u30EB)_16": 1755838665
+      "SNES - Kirby Super Star Kirbys Fun Pak - Castle Interior & Exterior Tileset(\u900F\u904E_\u77F3\u30BF\u30A4\u30EB)_17": 38203307
+      "SNES - Kirby Super Star Kirbys Fun Pak - Castle Interior & Exterior Tileset(\u900F\u904E_\u77F3\u30BF\u30A4\u30EB)_18": -1540357265
+      "SNES - Kirby Super Star Kirbys Fun Pak - Castle Interior & Exterior Tileset(\u900F\u904E_\u77F3\u30BF\u30A4\u30EB)_19": -2116691503
+      "SNES - Kirby Super Star Kirbys Fun Pak - Castle Interior & Exterior Tileset(\u900F\u904E_\u77F3\u30BF\u30A4\u30EB)_2": 633160132
+      "SNES - Kirby Super Star Kirbys Fun Pak - Castle Interior & Exterior Tileset(\u900F\u904E_\u77F3\u30BF\u30A4\u30EB)_20": -109066802
+      "SNES - Kirby Super Star Kirbys Fun Pak - Castle Interior & Exterior Tileset(\u900F\u904E_\u77F3\u30BF\u30A4\u30EB)_21": 763089984
+      "SNES - Kirby Super Star Kirbys Fun Pak - Castle Interior & Exterior Tileset(\u900F\u904E_\u77F3\u30BF\u30A4\u30EB)_22": 1881941812
+      "SNES - Kirby Super Star Kirbys Fun Pak - Castle Interior & Exterior Tileset(\u900F\u904E_\u77F3\u30BF\u30A4\u30EB)_23": -903272346
+      "SNES - Kirby Super Star Kirbys Fun Pak - Castle Interior & Exterior Tileset(\u900F\u904E_\u77F3\u30BF\u30A4\u30EB)_24": 1399196064
+      "SNES - Kirby Super Star Kirbys Fun Pak - Castle Interior & Exterior Tileset(\u900F\u904E_\u77F3\u30BF\u30A4\u30EB)_25": 396455329
+      "SNES - Kirby Super Star Kirbys Fun Pak - Castle Interior & Exterior Tileset(\u900F\u904E_\u77F3\u30BF\u30A4\u30EB)_26": -1172671084
+      "SNES - Kirby Super Star Kirbys Fun Pak - Castle Interior & Exterior Tileset(\u900F\u904E_\u77F3\u30BF\u30A4\u30EB)_27": 499962835
+      "SNES - Kirby Super Star Kirbys Fun Pak - Castle Interior & Exterior Tileset(\u900F\u904E_\u77F3\u30BF\u30A4\u30EB)_28": -1248547778
+      "SNES - Kirby Super Star Kirbys Fun Pak - Castle Interior & Exterior Tileset(\u900F\u904E_\u77F3\u30BF\u30A4\u30EB)_29": 1800517677
+      "SNES - Kirby Super Star Kirbys Fun Pak - Castle Interior & Exterior Tileset(\u900F\u904E_\u77F3\u30BF\u30A4\u30EB)_3": 2137069170
+      "SNES - Kirby Super Star Kirbys Fun Pak - Castle Interior & Exterior Tileset(\u900F\u904E_\u77F3\u30BF\u30A4\u30EB)_4": -1323317147
+      "SNES - Kirby Super Star Kirbys Fun Pak - Castle Interior & Exterior Tileset(\u900F\u904E_\u77F3\u30BF\u30A4\u30EB)_5": -465751403
+      "SNES - Kirby Super Star Kirbys Fun Pak - Castle Interior & Exterior Tileset(\u900F\u904E_\u77F3\u30BF\u30A4\u30EB)_6": 1125120635
+      "SNES - Kirby Super Star Kirbys Fun Pak - Castle Interior & Exterior Tileset(\u900F\u904E_\u77F3\u30BF\u30A4\u30EB)_7": -423607075
+      "SNES - Kirby Super Star Kirbys Fun Pak - Castle Interior & Exterior Tileset(\u900F\u904E_\u77F3\u30BF\u30A4\u30EB)_8": 455123286
+      "SNES - Kirby Super Star Kirbys Fun Pak - Castle Interior & Exterior Tileset(\u900F\u904E_\u77F3\u30BF\u30A4\u30EB)_9": -1840754849
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
