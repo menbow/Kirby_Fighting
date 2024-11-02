@@ -79,15 +79,17 @@ public class KirbyMove : MonoBehaviour
     private TrailRenderer tl;
     float moveX;
     bool floating = false;
-
+    KirbyAtacks kirbyAtaks;
     
 
     public static KirbyState moveState = KirbyState.Idle;
+    public KirbyState GetMoveState() => moveState;
     
     //public string Movestate => moveState.ToString();
 
     /// <summary>///  地面に立っているどうかのフラグ /// </summary>
     RaycastHit2D isGround;
+    public bool GetIsground() => isGround;
 
     float tempVeloisityY, tempVelisityX;
 
@@ -115,10 +117,6 @@ public class KirbyMove : MonoBehaviour
             animator.Play(animName);
         }
     }
-    public void OnEndAnimation()
-    {
-
-    }
 
     //Action Anim_Walk = () => { };   中括弧で複数命令が書けるラムダ式voidだとこう  ALT+Enter
     void Anim_Walk() { Anim_Action("Walk"); moveState = KirbyState.Walk; }
@@ -141,10 +139,10 @@ public class KirbyMove : MonoBehaviour
 
     void Animation()
     {
-        animator.SetBool("isGround", isGround);
-        animator.SetBool("floating", floating);
-        animator.SetBool("jumping", isGround && Input.GetButtonDown("Jump"));
-        animator.SetBool("Walk", isWalking);
+        //animator.SetBool("isGround", isGround);
+        //animator.SetBool("floating", floating);
+        //animator.SetBool("jumping", isGround && Input.GetButtonDown("Jump"));
+        //animator.SetBool("Walk", isWalking);
     }
 
 
@@ -157,6 +155,7 @@ public class KirbyMove : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         stopWatch = GetComponent<StopWatch>();
+        kirbyAtaks = GetComponent<KirbyAtacks>();
     }
 
     void Update()
@@ -171,13 +170,17 @@ public class KirbyMove : MonoBehaviour
 
         //RaycastHit2D isWall = Physics2D.CircleCast(transform.position, 0.5f, new Vector2(h, 0), 0.3f, wall);
 
-        AtackMethod();
-        FlipHorizontal(h);
-        Jump();
-        tempVeloisityY = rb.velocity.y; tempVelisityX = rb.velocity.x;
-        MoveHorizontal(h, tempVeloisityY, isGround);
-        ReduceFallSpeed(rb);
-        //Atack   
+        //移動系の処理は攻撃中には行わないつもり
+        if (kirbyAtaks.GetAtacking() == false)
+        {
+            AtackMethod();
+            FlipHorizontal(h);
+            Jump();
+            tempVeloisityY = rb.velocity.y; tempVelisityX = rb.velocity.x;
+            MoveHorizontal(h, tempVeloisityY, isGround);
+            ReduceFallSpeed(rb);
+
+        }        //Atack   
 
     }
 

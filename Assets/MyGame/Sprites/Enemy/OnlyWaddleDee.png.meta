@@ -1,0 +1,2305 @@
+fileFormatVersion: 2
+guid: 7487880c2e2d50a4087d6bcd422fb2c0
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 15
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: OnlyWaddleDee_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 383
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cdd015079f445640a57746d3ac0b93d
+      internalID: 254761203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 383
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1d17124fa051cd4092c080b443db8a7
+      internalID: -2055349169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_2
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 383
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e2f832e3595c0148b4952e319e01275
+      internalID: 1717808298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_3
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 380
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4bd867a40ec0894cb22d9831df3b0d0
+      internalID: -1261075450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_4
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 380
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9d0ad456ea6b7843869cb3f29576d20
+      internalID: 1404494623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_5
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 380
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09608b7cfe8c6334b8691389abfd13b7
+      internalID: -72470558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_6
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 381
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e39c1673fc1db18458f81a2acc33152a
+      internalID: 85319516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_7
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 381
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86383afb2fd399d42a1d55967fdb090b
+      internalID: 1528872807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_8
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 381
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 523abe01771842e489de0578a51e52df
+      internalID: -1880602476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_9
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 383
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28cece6293021db4e871e85167eb010e
+      internalID: 1401441603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_10
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 380
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c729f66c9c6eb94e9615e2d58b49dbe
+      internalID: -766748703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_11
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 383
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ca4b8be8163a7c43be6fd5734938db4
+      internalID: 1372210237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_12
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 383
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f0298b2a264e74ca1f8c3a5ece38fd
+      internalID: 651959702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_13
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 381
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cd64f7c319bb844889d5a0c400d6278
+      internalID: -229808237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_14
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 382
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0398aa014b580c34bbba319bce750743
+      internalID: -1566037137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_15
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 383
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 735a1fa27cb3a0c459e391be5433f7c0
+      internalID: 721277744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_16
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 383
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3d4d73fc6ce6b24d8b73b1820955c25
+      internalID: 1334598529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_17
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 328
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89e701a802eaa4e4ca7a3ee9671e10bf
+      internalID: -1971411598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_18
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 328
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 336b93acb15280944b020d2eaf145fdc
+      internalID: 1820783090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_19
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 328
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a00785f08c7df2a4ab49d90b96d6e5b3
+      internalID: -2018476687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_20
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 328
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e7e8721c2e52b1478b86800fd856b3c
+      internalID: -664994522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_21
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 328
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aebbd702dcdae4d459a4869458480fc2
+      internalID: -804179845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_22
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 328
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c84533e0a4230804b9f41459abb8b056
+      internalID: -1153161413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_23
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 274
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 995d8dc6e27b79f4da271870c69f95f3
+      internalID: -1887414474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_24
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 275
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 017da033aa13c7e4a94e2de479e8306e
+      internalID: 2061485343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_25
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 273
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52f54a39078d00e49b118e6fb89c752d
+      internalID: -1457836769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_26
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 274
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1125600fe49aacd45a1742f5e8f37e6f
+      internalID: -133984476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_27
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 274
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfad0dfc574969741aa82826a05ad93d
+      internalID: -925551219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_28
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 273
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37a40725d9febeb4fa90be54a589f58f
+      internalID: -1619798829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_29
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 273
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ed425047970f5647bbd2b222162f193
+      internalID: 1799110685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_30
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 273
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34489e4cd1cb59c4ebf66c6c87afd6eb
+      internalID: 1885509092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_31
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 272
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa7c0194a6bd3b439619cadf2809aa2
+      internalID: -1080901309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_32
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 272
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff9de73c2abab9549ab37eb4efd78aff
+      internalID: 1456231130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_33
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 272
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d57248df52ba43c4eb0293e39b5cb21f
+      internalID: 969732371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_34
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 272
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e8681c1d24837e449ddeb9a486bfab9
+      internalID: -1999366215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_35
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 272
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94933cef553995947add6deeec9c83b5
+      internalID: -1437868075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_36
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 273
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b0e2418a245a9340a3bf34fa709c909
+      internalID: 1310851859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_37
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 274
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad1503c8d5ba8924c98d837022f04386
+      internalID: -946675407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_38
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 276
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8c96ae7f256f66499fdf7779b8a7460
+      internalID: 382129685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_39
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 220
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3970ae549bfc9f4ba9ad61d3b30c427
+      internalID: 1114852643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_40
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 220
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c33e8f5a86913cb4c99301c3e21a1454
+      internalID: 575969990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_41
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 220
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 326cf7bc137dff44c94ee589573b6406
+      internalID: -1275428977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_42
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 220
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c853f76579da6479e21ee28a919de8
+      internalID: -186006407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_43
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 220
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a7904e65e266a743b9d3091b2c717c5
+      internalID: -148602380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_44
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 220
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fb6a314053e5df4fadef8dd922695b3
+      internalID: -606640526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_45
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 220
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c22987ba2efa5f74d83f39387045d31b
+      internalID: 1396444360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_46
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 220
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 632089a9bf4ad69459b191d1500e0a13
+      internalID: -499153791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_47
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 220
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3873c2d48608b834d8039127e71232c4
+      internalID: -752206648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_48
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 220
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29e4b2dfc0b0e144081b72ada6e6da92
+      internalID: 1241206716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_49
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 220
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2c77c219f2ac9942ad5c79d8b4aefb1
+      internalID: 738391314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_50
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 220
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56ecf097856c3b54e8464e1c37dfebb9
+      internalID: -800768420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_51
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 220
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74803bece49e0dc48922ca47b013436a
+      internalID: 595870782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_52
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 220
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98359955f7e9d5c4ea670c328d03945b
+      internalID: 1530270436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_53
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 220
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf3e43d6e0276bc49b49dec323d3a7bd
+      internalID: -131696826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_54
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 220
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b53b8fb354a95fb469763334d9f4634b
+      internalID: 264252329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_55
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 155
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c106c5000f1240c4dbd8d81cc627ac93
+      internalID: -1901989391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_56
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 155
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1fd8e04f231c5f478585c7461dd57ae
+      internalID: 1940109587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_57
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 155
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7205b408d46d3fa43a857ae1d599aa21
+      internalID: -1912038236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_58
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 155
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efd87b233a179b748b7fba08a2c7a198
+      internalID: 1109099471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_59
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 155
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c1b2caf65541d04a98357a8af823dba
+      internalID: 2120173051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_60
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 155
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0928266242789e045bfee612f38d1e4c
+      internalID: -2018401374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_61
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 155
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 142356cbcec568c4e9d6cf4f6809a67d
+      internalID: -2047363823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_62
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 155
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3428960b615f88438c679259377c96b
+      internalID: -2083388538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_63
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 155
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 628d5c7982b4d4b479017be81e4669e1
+      internalID: -1471712860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_64
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 155
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ba69224312b4b4bbaf58356c7221ef
+      internalID: -859649079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_65
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 155
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f57fb98c81f5b9439bc3b0b4ac23c04
+      internalID: 10617015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_66
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 155
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c45c8c1db88922343a61b0e26ccec0aa
+      internalID: -1603265170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_67
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 155
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d17dec1ebc8b51a4ba8f09ae9911dcaf
+      internalID: 1556892340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_68
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 155
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e0314bf69cf63c4c841906c68e48925
+      internalID: -1875772874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_69
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 155
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 038c7daaac9841546a802e6562433b4a
+      internalID: 1735002082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_70
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 155
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e6c888af841f3d47a57ec7852790bf8
+      internalID: 1036918950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_71
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 155
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9e582cdf0fb9704aa15b96abd8b1fcc
+      internalID: 1719135135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_72
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 160
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e2f9940e62f6b74d93f971eae2ec7e6
+      internalID: 1163983685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_73
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 160
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 150dda7c4069af747b534cf46af65461
+      internalID: -1037470740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_74
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 105
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71ae3a6981bf5df46bd7a9a9cca4748a
+      internalID: 1617185761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_75
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 102
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9adf33676290edc488abec0d16e06e01
+      internalID: 1919135730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_76
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 102
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b900ec82dcfeee14795b8f0f6574f2fb
+      internalID: 1897631503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_77
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 102
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 008c468c52cd4014d9ef30691f07d44f
+      internalID: -1883275971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_78
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 103
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b94f01a11460e84dbe982069b9ffb80
+      internalID: 19800820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_79
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 103
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a498dc8a2cf6ae47968bc8fd09a63ec
+      internalID: -443715152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_80
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 102
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e900db7b2aba24049b67009731b8d09f
+      internalID: -1096813926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_81
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 104
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b63aa688b22a6ea4ab736e6e099e0099
+      internalID: -246871194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_82
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 104
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7989018985b014f49bfd7bd198ebda87
+      internalID: -1455220833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_83
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 46
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 567a2fd3372fbf34987daf6a4943fdc1
+      internalID: -1314519085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_84
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 46
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78586ec6b8f067d44a8306e527a83c4b
+      internalID: 872316374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_85
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 46
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1c39af2aa30b9243940daac16ef8805
+      internalID: 51771807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_86
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 44
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60eb96b25183a0c47b05f1316f667c6d
+      internalID: 386378366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_87
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 47
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0550d0bf47ab3b54882827ec1e82115b
+      internalID: -1603732211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_88
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 47
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a79845e7ea7af24caa7ec5e75bc53ac
+      internalID: 1257061369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_89
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 44
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54d47f8f21330094ea797a62a1fb86cd
+      internalID: 324398239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_90
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 2
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abee331d3beb9ad469737a1b7270f9c8
+      internalID: 1122967736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_91
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 11
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a035051274862b746afcc67c504190ae
+      internalID: -149000066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_92
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 1
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e919b5cd90a7c64e8c31e854bfe7c15
+      internalID: 218570463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_93
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 4
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2edd1b1e654bc774182f2fed86410f03
+      internalID: 403922545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_94
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 3
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b9aab2b41bb55b44a50545dd5cecf4c
+      internalID: 1907929413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_95
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 6
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74f10f37cfa8a7a4695dfb881e8dae1c
+      internalID: -1401752408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_96
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 2
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd8891fe670f6044db439c8ac914c559
+      internalID: 2026862384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_97
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 1
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09a7dcd21f9d95f47aeef45fa7f6cada
+      internalID: 600276472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OnlyWaddleDee_98
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ee28593abc1998428ea01f61be54681
+      internalID: -1250250140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      OnlyWaddleDee_0: 254761203
+      OnlyWaddleDee_1: -2055349169
+      OnlyWaddleDee_10: -766748703
+      OnlyWaddleDee_11: 1372210237
+      OnlyWaddleDee_12: 651959702
+      OnlyWaddleDee_13: -229808237
+      OnlyWaddleDee_14: -1566037137
+      OnlyWaddleDee_15: 721277744
+      OnlyWaddleDee_16: 1334598529
+      OnlyWaddleDee_17: -1971411598
+      OnlyWaddleDee_18: 1820783090
+      OnlyWaddleDee_19: -2018476687
+      OnlyWaddleDee_2: 1717808298
+      OnlyWaddleDee_20: -664994522
+      OnlyWaddleDee_21: -804179845
+      OnlyWaddleDee_22: -1153161413
+      OnlyWaddleDee_23: -1887414474
+      OnlyWaddleDee_24: 2061485343
+      OnlyWaddleDee_25: -1457836769
+      OnlyWaddleDee_26: -133984476
+      OnlyWaddleDee_27: -925551219
+      OnlyWaddleDee_28: -1619798829
+      OnlyWaddleDee_29: 1799110685
+      OnlyWaddleDee_3: -1261075450
+      OnlyWaddleDee_30: 1885509092
+      OnlyWaddleDee_31: -1080901309
+      OnlyWaddleDee_32: 1456231130
+      OnlyWaddleDee_33: 969732371
+      OnlyWaddleDee_34: -1999366215
+      OnlyWaddleDee_35: -1437868075
+      OnlyWaddleDee_36: 1310851859
+      OnlyWaddleDee_37: -946675407
+      OnlyWaddleDee_38: 382129685
+      OnlyWaddleDee_39: 1114852643
+      OnlyWaddleDee_4: 1404494623
+      OnlyWaddleDee_40: 575969990
+      OnlyWaddleDee_41: -1275428977
+      OnlyWaddleDee_42: -186006407
+      OnlyWaddleDee_43: -148602380
+      OnlyWaddleDee_44: -606640526
+      OnlyWaddleDee_45: 1396444360
+      OnlyWaddleDee_46: -499153791
+      OnlyWaddleDee_47: -752206648
+      OnlyWaddleDee_48: 1241206716
+      OnlyWaddleDee_49: 738391314
+      OnlyWaddleDee_5: -72470558
+      OnlyWaddleDee_50: -800768420
+      OnlyWaddleDee_51: 595870782
+      OnlyWaddleDee_52: 1530270436
+      OnlyWaddleDee_53: -131696826
+      OnlyWaddleDee_54: 264252329
+      OnlyWaddleDee_55: -1901989391
+      OnlyWaddleDee_56: 1940109587
+      OnlyWaddleDee_57: -1912038236
+      OnlyWaddleDee_58: 1109099471
+      OnlyWaddleDee_59: 2120173051
+      OnlyWaddleDee_6: 85319516
+      OnlyWaddleDee_60: -2018401374
+      OnlyWaddleDee_61: -2047363823
+      OnlyWaddleDee_62: -2083388538
+      OnlyWaddleDee_63: -1471712860
+      OnlyWaddleDee_64: -859649079
+      OnlyWaddleDee_65: 10617015
+      OnlyWaddleDee_66: -1603265170
+      OnlyWaddleDee_67: 1556892340
+      OnlyWaddleDee_68: -1875772874
+      OnlyWaddleDee_69: 1735002082
+      OnlyWaddleDee_7: 1528872807
+      OnlyWaddleDee_70: 1036918950
+      OnlyWaddleDee_71: 1719135135
+      OnlyWaddleDee_72: 1163983685
+      OnlyWaddleDee_73: -1037470740
+      OnlyWaddleDee_74: 1617185761
+      OnlyWaddleDee_75: 1919135730
+      OnlyWaddleDee_76: 1897631503
+      OnlyWaddleDee_77: -1883275971
+      OnlyWaddleDee_78: 19800820
+      OnlyWaddleDee_79: -443715152
+      OnlyWaddleDee_8: -1880602476
+      OnlyWaddleDee_80: -1096813926
+      OnlyWaddleDee_81: -246871194
+      OnlyWaddleDee_82: -1455220833
+      OnlyWaddleDee_83: -1314519085
+      OnlyWaddleDee_84: 872316374
+      OnlyWaddleDee_85: 51771807
+      OnlyWaddleDee_86: 386378366
+      OnlyWaddleDee_87: -1603732211
+      OnlyWaddleDee_88: 1257061369
+      OnlyWaddleDee_89: 324398239
+      OnlyWaddleDee_9: 1401441603
+      OnlyWaddleDee_90: 1122967736
+      OnlyWaddleDee_91: -149000066
+      OnlyWaddleDee_92: 218570463
+      OnlyWaddleDee_93: 403922545
+      OnlyWaddleDee_94: 1907929413
+      OnlyWaddleDee_95: -1401752408
+      OnlyWaddleDee_96: 2026862384
+      OnlyWaddleDee_97: 600276472
+      OnlyWaddleDee_98: -1250250140
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
