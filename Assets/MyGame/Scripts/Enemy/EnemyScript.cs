@@ -4,35 +4,32 @@ using UnityEngine;
 
 public enum EnemyMethod
 {
-    Walk,Jump,Atack,Away,AirAtack,Frip,Run,
+    Walk,Jump,Atack,Away,AirAtack,Frip,Run,Chase
 }
 
 [RequireComponent(typeof(StopWatch))]
-public class EnemyScript : MonoBehaviour
+public partial class EnemyScript : MonoBehaviour
 {
     Rigidbody2D rb; StopWatch sw;
 
     IEnemyMove enemyData;
 
-    List<EnemyAction> actionData = EnemyDataList.waddleDee;
-
     [SerializeField, Tooltip("地面のレイヤー")]
     LayerMask Ground;
-
-    //[SerializeField] float rayCastDistance;
 
     RaycastHit2D isGround;
 
     /// <summary> 今読み込んでるactionDataの番号 </summary>
     int currentDataNum = 0;
     /// <summary> 今読み込んでるactionDataの処理を終えてるかどうか </summary>
-    bool isDone = true;
+    bool moveDone = true;
 
     void Start()
     {
         sw = GetComponent<StopWatch>();
         rb = GetComponent<Rigidbody2D>();
         enemyData = GetComponent<IEnemyMove>();
+
     }
 
 
@@ -40,13 +37,8 @@ public class EnemyScript : MonoBehaviour
     {
         OnGroundSearch();
 
-        //foreach (var method in enemyData.actionData())
-        //{
-
-        //}
-
         //今やってる処理を終わらせていたら
-        if (isDone)
+        if (moveDone)
         {
             ReadMoveData();
         }
@@ -58,7 +50,7 @@ public class EnemyScript : MonoBehaviour
     /// </summary>
     void ReadMoveData()
     {
-        isDone = false;
+        moveDone = false;
             switch (enemyData.actionData()[currentDataNum].method)
             {
                 case EnemyMethod.Walk:
@@ -102,7 +94,7 @@ public class EnemyScript : MonoBehaviour
         rb.velocity = dir;
         //Debug.Log(rb.velocity);
         yield return new WaitForSeconds(actionData.time);
-        isDone = true;
+        moveDone = true;
     }
 
     void Jump(float jumpForce)
@@ -112,12 +104,12 @@ public class EnemyScript : MonoBehaviour
             Vector2 Force = new Vector2(0, jumpForce);
             rb.velocity = Force;
         }
-        isDone = true;
+        moveDone = true;
     }
 
     void Atack()
     {
-        isDone = true;
+        moveDone = true;
     }
 
     /// <summary>
@@ -129,8 +121,13 @@ public class EnemyScript : MonoBehaviour
         Vector3 value = transform.localScale;
         value.x *= -1;
         transform.localScale = value;
-        isDone = true;
+        moveDone = true;
     }
+
+    //IEnumerator ChaceCoroutine()
+    //{
+
+    //}
 
 
     /// <summary>/// 地面に立っているかどうかを調べる /// </summary>

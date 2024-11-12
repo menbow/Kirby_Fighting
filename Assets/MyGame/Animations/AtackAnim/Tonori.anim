@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: HardPunch
+  m_Name: Tonori
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,11 +21,9 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: -500874646, guid: 0c3df529b3af48047863d0e106dc7968, type: 3}
+      value: {fileID: -866402459, guid: 10db4bde296c1f741b9f94fe2ecd9687, type: 3}
     - time: 0.083333336
-      value: {fileID: -21095167, guid: 0c3df529b3af48047863d0e106dc7968, type: 3}
-    - time: 0.16666667
-      value: {fileID: -1048246678, guid: 0c3df529b3af48047863d0e106dc7968, type: 3}
+      value: {fileID: 1649367357, guid: 10db4bde296c1f741b9f94fe2ecd9687, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -48,15 +46,14 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: -500874646, guid: 0c3df529b3af48047863d0e106dc7968, type: 3}
-    - {fileID: -21095167, guid: 0c3df529b3af48047863d0e106dc7968, type: 3}
-    - {fileID: -1048246678, guid: 0c3df529b3af48047863d0e106dc7968, type: 3}
+    - {fileID: -866402459, guid: 10db4bde296c1f741b9f94fe2ecd9687, type: 3}
+    - {fileID: 1649367357, guid: 10db4bde296c1f741b9f94fe2ecd9687, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.25
+    m_StopTime: 0.16666667
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0

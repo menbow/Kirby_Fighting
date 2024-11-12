@@ -9,14 +9,19 @@ public class KirbyAtacks : MonoBehaviour
     public bool GetAtacking() => atack;
 
     bool ButtomHold = false;
+    bool tonori = false;
+    bool floatState = false;
 
     Animator animator;　KirbyMove KirbyMove;
+    Rigidbody2D rb;
 
     [SerializeField] GameObject jabPrefab; 
     [SerializeField] GameObject hardPunchPrefab; 
+    [SerializeField] float tonoriSpeed = 4f;
 
     void Start()
     {
+        rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         KirbyMove = GetComponent<KirbyMove>();
     }
@@ -24,11 +29,18 @@ public class KirbyAtacks : MonoBehaviour
     
     void Update()
     {
-        if(KirbyMove.GetIsground() && Input.GetButtonDown("Atack") && !atack)
+        if(Input.GetButtonDown("Atack") && !atack)
         {
-            Atack_Jab();
+            if (KirbyMove.GetIsground())
+            {
+                Atack_Jab();
+            }
+            else if(!FloatState())
+            {
+                Tonori_Kick();
+            }
         }
-
+        ButtonHoldCount();
     }
 
     void Atack_Jab()
@@ -39,11 +51,45 @@ public class KirbyAtacks : MonoBehaviour
         LaunchOBJ(jabPrefab);
     }
 
-    void Atack_HardPunch()
+    void Tonori_Kick()
     {
         atack = true;
-        StartCoroutine(KoutyokuCoroutine(0.5f));
+        tonori = true;
+        rb.velocity = new Vector3(tonoriSpeed * transform.localScale.x,-tonoriSpeed * 2,0);
+        Anim_Action("Tonori", true);
 
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        //とんおり攻撃をして地面とかオブジェクトに当たった時の処理
+        if (tonori)
+        {
+            atack = false;
+            tonori = false;
+            KirbyMove.Anim_Idle();
+        }
+    }
+
+
+    void Atack_HardPunch()
+    {
+        string animationName = "";
+
+        if (KirbyMove.GetIsground())
+        {
+            animationName = "HardPunch";
+        }
+        else if (!KirbyMove.GetIsground())
+        {
+            animationName = "HardPunch_Air";
+        }
+
+        Debug.Log("hardAtack");
+        atack = true;
+        Anim_Action(animationName, true);
+        LaunchOBJ(hardPunchPrefab);
+        StartCoroutine(KoutyokuCoroutine(0.7f));
     }
 
 
@@ -61,7 +107,7 @@ public class KirbyAtacks : MonoBehaviour
 
     IEnumerator KoutyokuCoroutine( float koutyokuTime)
     {
-        Debug.Log("fwaefafertiuyyh");
+        //Debug.Log("fwaefafertiuyyh");
         yield return new WaitForSeconds(koutyokuTime);
         atack = false;
         KirbyMove.Anim_Idle();
@@ -72,6 +118,7 @@ public class KirbyAtacks : MonoBehaviour
     {
         if (Input.GetButton("Atack"))
         {
+            Debug.Log(buttonHoldTime);
             buttonHoldTime += Time.deltaTime;
         }
 
@@ -87,6 +134,23 @@ public class KirbyAtacks : MonoBehaviour
 
     }
 
+    /// <summary>
+    /// カービィが息を含んだstateかどうかを取得する　とんおり用
+    /// </summary>
+    /// <returns></returns>
+    bool FloatState()
+    {
+        var state = KirbyMove.GetMoveState();
+
+        
+        if(state == KirbyState.Jump_FloatFalling || state == KirbyState.While_floating || state == KirbyState.Jump_FloatJump
+            || state == KirbyState.Floating_Start || state == KirbyState.Floating_End)
+        {
+            return true;
+        }
+        else { return false; }
+
+    }
 
     void Anim_Action(string animName, bool enforcementPlay = false)
     {

@@ -79,6 +79,8 @@ public class KirbyMove : MonoBehaviour
     private TrailRenderer tl;
     float moveX;
     bool floating = false;
+    public bool GetFloating() => floating; 
+
     KirbyAtacks kirbyAtaks;
     
 
@@ -171,7 +173,7 @@ public class KirbyMove : MonoBehaviour
         //RaycastHit2D isWall = Physics2D.CircleCast(transform.position, 0.5f, new Vector2(h, 0), 0.3f, wall);
 
         //ˆÚ“®Œn‚Ìˆ—‚ÍUŒ‚’†‚É‚Ís‚í‚È‚¢‚Â‚à‚è
-        if (kirbyAtaks.GetAtacking() == false)
+        if (kirbyAtaks.GetAtacking() == false@&& !kirbyAtaks.GetAtacking())
         {
             AtackMethod();
             FlipHorizontal(h);

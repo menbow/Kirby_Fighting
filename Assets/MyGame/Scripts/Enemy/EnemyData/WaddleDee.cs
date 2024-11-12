@@ -9,7 +9,6 @@ public class WaddleDee : MonoBehaviour, IEnemyMove
         new EnemyAction(EnemyMethod.Walk, 2.5f),
         new EnemyAction(EnemyMethod.Frip, 0f),
         new EnemyAction(EnemyMethod.Walk, 2.5f),
-
     };
 
     public List<EnemyAction> actionData() => action;
@@ -20,6 +19,6 @@ public class WaddleDee : MonoBehaviour, IEnemyMove
     [SerializeField] float jumpPower = 2f;
     public float JumpPower() => jumpPower;
 
-
+    
 
 }
