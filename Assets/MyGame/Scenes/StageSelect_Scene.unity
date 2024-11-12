@@ -491,6 +491,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fadeImage: {fileID: 695094592}
   fadeDuration: 1
+  sceneNames:
+  - New_Challenger_Scene
 --- !u!4 &1102895043
 Transform:
   m_ObjectHideFlags: 0
