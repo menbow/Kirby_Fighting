@@ -22,17 +22,18 @@ public class BreathMove : MonoBehaviour
     
     void Update()
     {
-        rb.velocity = vec;
+        rb.velocity = direction;
     }
 
-    Vector3 vec = Vector3.zero;
+    Vector2 direction = Vector2.zero;
     public IEnumerator BreathCoroutine(float kirbyScaleX)
     {
+        //Debug.Log("start");
 
         //âE
         if(kirbyScaleX >= 0)
         {
-            vec.x = moveSpeed;
+            direction.x = moveSpeed;
             //rb.velocity = vec;
         }
 
@@ -42,17 +43,21 @@ public class BreathMove : MonoBehaviour
             var a = transform.localScale;
             a.x = kirbyScaleX;
             transform.localScale = a;
-            vec.x = -moveSpeed;
+            direction.x = -moveSpeed;
             //rb.velocity = vec;
         }
+
+        yield return new WaitForSeconds(destroyTime);
+
+        //Debug.Log("ÇTÇQçsñ⁄");
 
         if (isCollision)
         {
             yield break;
         }
-        else if(gameObject != null)
+
+        if(gameObject != null)
         {
-            yield return new WaitForSeconds(destroyTime);
             //Debug.Log("breath");
             Destroy(gameObject);
         }

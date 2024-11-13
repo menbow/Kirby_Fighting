@@ -79,15 +79,19 @@ public class KirbyMove : MonoBehaviour
     private TrailRenderer tl;
     float moveX;
     bool floating = false;
+    public bool GetFloating() => floating; 
 
+    KirbyAtacks kirbyAtaks;
     
 
     public static KirbyState moveState = KirbyState.Idle;
+    public KirbyState GetMoveState() => moveState;
     
     //public string Movestate => moveState.ToString();
 
     /// <summary>///  地面に立っているどうかのフラグ /// </summary>
     RaycastHit2D isGround;
+    public bool GetIsground() => isGround;
 
     float tempVeloisityY, tempVelisityX;
 
@@ -115,10 +119,6 @@ public class KirbyMove : MonoBehaviour
             animator.Play(animName);
         }
     }
-    public void OnEndAnimation()
-    {
-
-    }
 
     //Action Anim_Walk = () => { };   中括弧で複数命令が書けるラムダ式voidだとこう  ALT+Enter
     void Anim_Walk() { Anim_Action("Walk"); moveState = KirbyState.Walk; }
@@ -141,10 +141,10 @@ public class KirbyMove : MonoBehaviour
 
     void Animation()
     {
-        animator.SetBool("isGround", isGround);
-        animator.SetBool("floating", floating);
-        animator.SetBool("jumping", isGround && Input.GetButtonDown("Jump"));
-        animator.SetBool("Walk", isWalking);
+        //animator.SetBool("isGround", isGround);
+        //animator.SetBool("floating", floating);
+        //animator.SetBool("jumping", isGround && Input.GetButtonDown("Jump"));
+        //animator.SetBool("Walk", isWalking);
     }
 
 
@@ -157,6 +157,7 @@ public class KirbyMove : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         stopWatch = GetComponent<StopWatch>();
+        kirbyAtaks = GetComponent<KirbyAtacks>();
     }
 
     void Update()
@@ -167,44 +168,49 @@ public class KirbyMove : MonoBehaviour
         h = moveable ? Input.GetAxisRaw("Horizontal") : 0f;
         v = moveable ? Input.GetAxisRaw("Vertical") : 0f;
 
-        tempVeloisityY = rb.velocity.y; tempVelisityX = rb.velocity.x;
         //Jump(tempVelisityX);
 
         //RaycastHit2D isWall = Physics2D.CircleCast(transform.position, 0.5f, new Vector2(h, 0), 0.3f, wall);
 
-        MoveHorizontal(h, tempVeloisityY, isGround);
+        //移動系の処理は攻撃中には行わないつもり
+        if (kirbyAtaks.GetAtacking() == false　&& !kirbyAtaks.GetAtacking())
+        {
+            AtackMethod();
+            FlipHorizontal(h);
+            Jump();
+            tempVeloisityY = rb.velocity.y; tempVelisityX = rb.velocity.x;
+            MoveHorizontal(h, tempVeloisityY, isGround);
+            ReduceFallSpeed(rb);
 
-        FlipHorizontal(h);
-        ReduceFallSpeed(rb);
-        AtackMethod();
-        Jump();
-        //Atack
+        }        //Atack   
 
     }
+
 
     private void MoveHorizontal(float axisH, float tempVelisityY, bool isGround)
     {
 
         if (isGround)//      地上
         {
-            if (Mathf.Abs(axisH) != 0 && moveState != KirbyState.Walk && moveState != KirbyState.Jump_Start && moveState != KirbyState.Floating_End)
+            if (Mathf.Abs(axisH) != 0 && moveState != KirbyState.Walk && moveState != KirbyState.Jump_Start
+                && moveState != KirbyState.Floating_End && moveState != KirbyState.Dash)
             {
                 //SoundsManager.SE_Play(SE.OnLand);
-                Anim_Walk(); 
+                Anim_Walk();
                 //Debug.Log("歩き");
             }
-            else if (moveState == KirbyState.Jump_FloatFalling || moveState == KirbyState.Jump_FloatJump 
+            else if (moveState == KirbyState.Jump_FloatFalling || moveState == KirbyState.Jump_FloatJump
                 || moveState == KirbyState.Floating_Start)
             {
                 Breath();
             }
-            else if((moveState == KirbyState.Walk )
+            else if ((moveState == KirbyState.Walk)
                 && Mathf.Abs(axisH) == 0)
             {
                 //|| moveState == KirbyState.Floating_End
                 Anim_Idle();
             }
-            
+
         }
         else//    空中
         {
@@ -212,25 +218,58 @@ public class KirbyMove : MonoBehaviour
         }
 
 
-        moveX = axisH * 10;
+        //moveX = axisH * 10;
 
+        //axisHを掛けることで入力しなかったら動かないようにする
+        moveX = moveSpeed * axisH;
+
+        //Vector2 move = new Vector2(moveX, 0); //最終的な動き
         Vector2 move = new Vector2(moveX, tempVelisityY); //最終的な動き
 
         if (isGround && Input.GetButton("Dash"))
         {
-            Anim_Dash();
-            move.x = dashSpeed;
-            move.y = 0.0f;
+
+            if (moveState != KirbyState.Jump_Start)
+            {
+                Anim_Dash();
+            }
+
+            if (transform.localScale.x > 0)
+            { move.x = dashSpeed; }
+            else
+            { move.x = -dashSpeed; }
+
+            //move.y = 0.0f;
         }
 
-        if (Input.GetButtonUp("Dash"))
+        if (Input.GetButtonUp("Dash") && isGround)   //地面に立っているとき限定
         {
             Anim_Dash_Stop();
         }
 
-        rb.velocity = move;
+        if (Mathf.Abs(rb.velocity.x) <= Mathf.Abs(move.x))
+        {
+            //Debug.Log(move);
+            //rb.AddForce(move * 4,ForceMode2D.Force);
+        }
 
+        rb.velocity = move;
     }
+
+    bool dashFrag = false;
+
+    void Dash()
+    {
+        if(moveState != KirbyState.Dash)
+        {
+
+        }
+    }
+    IEnumerator DashFragCoroutine()
+    {
+        yield return new WaitForSeconds(0.1f);
+    }
+
 
     public void Breath()
     {
