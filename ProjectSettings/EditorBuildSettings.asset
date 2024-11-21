@@ -5,43 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/MyGame/Scenes/SampleScene1.unity
+  - enabled: 1
+    path: Assets/MyGame/Scenes/MoveSampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
-    path: Assets/MyGame/Scenes/Kirby_1.unity
-    guid: 24beeac39844fd74ca2c546cf56dfd38
-  - enabled: 1
-    path: Assets/MyGame/Scenes/Kirby_1-2.unity
-    guid: 37e4814329443d74c8eafd058e051364
-  - enabled: 1
-    path: Assets/MyGame/Scenes/Kirby_1_Bonus.unity
-    guid: d66109e5a8f90a748adcd16cd6b1976d
-  - enabled: 1
-    path: Assets/MyGame/Scenes/Kirby_1_Boss.unity
-    guid: 7089f0bfa0fc89043962e93a2a097c34
-  - enabled: 1
-    path: Assets/MyGame/Scenes/Kirby_2.unity
-    guid: 986a9d049e48bd44b921b9f2160f2ea8
-  - enabled: 1
-    path: Assets/MyGame/Scenes/Kirby_2_MidBoss.unity
-    guid: f09c35e59731bc241950f9310b819cab
-  - enabled: 1
-    path: Assets/MyGame/Scenes/Kirby_Battle.unity
-    guid: ed5073c64b40bc749854741171036484
-  - enabled: 0
-    path: Assets/MyGame/Scenes/TutorialScene.unity
-    guid: c0aa48a191c37d64a8815c6bd9657d22
-  - enabled: 1
-    path: Assets/MyGame/Scenes/Kirby_3.unity
-    guid: 223eb830a565d2a4882ab84f45a27082
-  - enabled: 1
-    path: Assets/MyGame/Scenes/StageSelect_Scene.unity
-    guid: f4083615ceffbf7469c8d5ef65f1f14b
-  - enabled: 1
-    path: Assets/MyGame/Scenes/New_Challenger_Scene.unity
-    guid: a455d632adb20f1459b308f83b3b2c63
-  - enabled: 1
-    path: Assets/MyGame/Scenes/Kirby_Street_fighter.unity
-    guid: 54985cf4d383d484dbb07f8305ad8208
   m_configObjects: {}

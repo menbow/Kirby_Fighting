@@ -8,7 +8,7 @@ public class seTest : MonoBehaviour
     void Start()
     {
         gameManager = GameObject.FindGameObjectWithTag("GameManager");
-        Debug.Log(gameManager);
+        //Debug.Log(gameManager);
         gameManager.AddComponent<SoundsManager>();
 
     }

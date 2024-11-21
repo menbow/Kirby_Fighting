@@ -10,6 +10,9 @@ public enum EnemyMethod
 [RequireComponent(typeof(StopWatch))]
 public partial class EnemyScript : MonoBehaviour
 {
+    BoxCollider2D col;
+    public BoxCollider2D GetCol() => col;
+
     Rigidbody2D rb; StopWatch sw;
 
     IEnemyMove enemyData;
@@ -26,6 +29,7 @@ public partial class EnemyScript : MonoBehaviour
 
     void Start()
     {
+        col = GetComponent<BoxCollider2D>();
         sw = GetComponent<StopWatch>();
         rb = GetComponent<Rigidbody2D>();
         enemyData = GetComponent<IEnemyMove>();
