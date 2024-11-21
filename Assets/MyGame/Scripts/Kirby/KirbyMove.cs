@@ -182,7 +182,7 @@ public class KirbyMove : MonoBehaviour
             MoveHorizontal(h, tempVeloisityY, isGround);
             ReduceFallSpeed(rb);
 
-        }        //Atack   
+        }   
 
     }
 
@@ -247,11 +247,6 @@ public class KirbyMove : MonoBehaviour
             Anim_Dash_Stop();
         }
 
-        if (Mathf.Abs(rb.velocity.x) <= Mathf.Abs(move.x))
-        {
-            //Debug.Log(move);
-            //rb.AddForce(move * 4,ForceMode2D.Force);
-        }
 
         rb.velocity = move;
     }
