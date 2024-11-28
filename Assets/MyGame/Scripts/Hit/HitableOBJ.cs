@@ -33,18 +33,18 @@ public class HitableOBJ : MonoBehaviour
     bool ishit = false;
     public bool GetHit() => ishit;
 
-    Rigidbody rb;
+    Rigidbody2D rb;
 
 
 
     void Start()
     {
         damageable = true;
-        rb = GetComponent<Rigidbody>();
+        rb = GetComponent<Rigidbody2D>();
         currentHP = maxHP;
 
         if (playerorEnemy == PlayerorEnemy.player) { tagName = "EnemyAtack"; getAtackcol = PlayerorEnemy.enemy; }
-        if (playerorEnemy == PlayerorEnemy.enemy) { tagName = "PlayerAtack"; getAtackcol = PlayerorEnemy.player; }
+        if (playerorEnemy == PlayerorEnemy.enemy) { tagName = "Atack"; getAtackcol = PlayerorEnemy.player; }
     }
 
 
@@ -69,44 +69,38 @@ public class HitableOBJ : MonoBehaviour
     }
 
 
-    //private void OnTriggerEnter(Collider other)
-    //{
-    //    AtackDamage AtackCol = other.GetComponent<AtackDamage>();
-
-    //    //敵の攻撃のコライダーに接触したとき
-    //    if (other.gameObject.CompareTag(tagName) && AtackCol != null)
-    //    {
-    //        //当たったものが敵のものだった場合
-    //        if (AtackCol.GetPlayerorEnemy() == getAtackcol && damageable)
-    //        {
-    //            //ノックバック処理
-    //            Vector3 dir = other.transform.position - transform.position;
-    //            dir.y = 0;
-    //            var aaa = KitamuraMethod.VectorReplaced(transform.forward, AtackCol.GetKnockback());
-    //            //Debug.Log(aaa);
-    //            rb.AddForce(-aaa * 10, ForceMode.Impulse);
-    //            //StartCoroutine(KnockBackCoroutine(aaa));
-
-    //            //ダメージ処理
-    //            if (AtackCol != null)
-    //            {
-    //                currentHP -= AtackCol.GetDamage();
-    //                //Debug.Log(currentHP);
-    //                damageable = false;
-    //                StartCoroutine(DamageFragCoroutine());
-    //                HitEffect(other.transform.position);
-    //            }
-    //        }
-    //    }
-    //}
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        AtackDamage AtackCol = collision.GetComponent<AtackDamage>();
+
+        //敵の攻撃のコライダーに接触したとき
+        if (collision.gameObject.CompareTag(tagName) && AtackCol != null)
+        {
+            //当たったものが敵のものだった場合
+            if (AtackCol.GetPlayerorEnemy() == getAtackcol && damageable)
+            {
+                //Debug.Log("Hit" + gameObject.name);
+                //ノックバック処理
+                Vector3 dir = collision.transform.position - transform.position;
+                dir.z = 0;
+                var aaa = KitamuraMethod.VectorReplaced2D(transform.forward, AtackCol.GetKnockback());
+                //Debug.Log(aaa);
+                rb.AddForce(-aaa , ForceMode2D.Impulse);
+                //StartCoroutine(KnockBackCoroutine(aaa));
+
+                //ダメージ処理
+                if (AtackCol != null)
+                {
+                    currentHP -= AtackCol.GetDamage();
+                    //Debug.Log(currentHP);
+                    damageable = false;
+                    StartCoroutine(DamageFragCoroutine());
+                    HitEffect(collision.transform.position);
+                }
+            }
+        }
 
     }
-
-
-
 
     IEnumerator KnockBackCoroutine(Vector3 vector)
     {
