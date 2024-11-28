@@ -1,0 +1,545 @@
+fileFormatVersion: 2
+guid: 9cc5a24ad376ee04db0b99ff17fb2af3
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SNES_-_Street_Fighter_II_The_World_Warrior_Street_Fighter_II_Turbo_Hyper_Fighting_-_Ryu_Stage_World_Warrior__Unity_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 680
+        width: 512
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f33806a16bf6f0a4bbe4e03b55187a1d
+      internalID: -2020550553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Street_Fighter_II_The_World_Warrior_Street_Fighter_II_Turbo_Hyper_Fighting_-_Ryu_Stage_World_Warrior__Unity_1
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 712
+        width: 416
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f0255454e8dbd4c8a54c0694d54a54
+      internalID: -853807305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Street_Fighter_II_The_World_Warrior_Street_Fighter_II_Turbo_Hyper_Fighting_-_Ryu_Stage_World_Warrior__Unity_2
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 552
+        width: 416
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 203cff217b41c08449ae54b01c66be04
+      internalID: 142502008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Street_Fighter_II_The_World_Warrior_Street_Fighter_II_Turbo_Hyper_Fighting_-_Ryu_Stage_World_Warrior__Unity_3
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 456
+        width: 566
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca227309797493d4bb139b2bdce3501f
+      internalID: 779659721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Street_Fighter_II_The_World_Warrior_Street_Fighter_II_Turbo_Hyper_Fighting_-_Ryu_Stage_World_Warrior__Unity_4
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 368
+        width: 224
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38bbb87831e507a4588a7c320f292982
+      internalID: -299635235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Street_Fighter_II_The_World_Warrior_Street_Fighter_II_Turbo_Hyper_Fighting_-_Ryu_Stage_World_Warrior__Unity_5
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 368
+        width: 272
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eec5e3a3978eaf4287c4f75406862d3
+      internalID: -2028879909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Street_Fighter_II_The_World_Warrior_Street_Fighter_II_Turbo_Hyper_Fighting_-_Ryu_Stage_World_Warrior__Unity_6
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 355
+        width: 56
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a17b38a90c62749a510256237934b9
+      internalID: -1769991726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Street_Fighter_II_The_World_Warrior_Street_Fighter_II_Turbo_Hyper_Fighting_-_Ryu_Stage_World_Warrior__Unity_7
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 344
+        width: 48
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04eee00e392af504a84bed4755401e74
+      internalID: -1721021620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Street_Fighter_II_The_World_Warrior_Street_Fighter_II_Turbo_Hyper_Fighting_-_Ryu_Stage_World_Warrior__Unity_8
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 259
+        width: 21
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75d106dc36441e6459f154a7f11606c0
+      internalID: 890427078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Street_Fighter_II_The_World_Warrior_Street_Fighter_II_Turbo_Hyper_Fighting_-_Ryu_Stage_World_Warrior__Unity_9
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 322
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d648a9247635fd34fa1ede7f916ff065
+      internalID: 1523094396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Street_Fighter_II_The_World_Warrior_Street_Fighter_II_Turbo_Hyper_Fighting_-_Ryu_Stage_World_Warrior__Unity_10
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 322
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e64f8ae03217940bebabfb1c92605e
+      internalID: -1736947516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Street_Fighter_II_The_World_Warrior_Street_Fighter_II_Turbo_Hyper_Fighting_-_Ryu_Stage_World_Warrior__Unity_11
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 322
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0836b5a7ade82a440a15d5bb57d03be1
+      internalID: -2067916289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Street_Fighter_II_The_World_Warrior_Street_Fighter_II_Turbo_Hyper_Fighting_-_Ryu_Stage_World_Warrior__Unity_12
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 322
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4827c175472f2e449ff529a5badbc60
+      internalID: 1110738791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Street_Fighter_II_The_World_Warrior_Street_Fighter_II_Turbo_Hyper_Fighting_-_Ryu_Stage_World_Warrior__Unity_13
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 322
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bc2611374a97f04189fa81260d691b4
+      internalID: -416247973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Street_Fighter_II_The_World_Warrior_Street_Fighter_II_Turbo_Hyper_Fighting_-_Ryu_Stage_World_Warrior__Unity_14
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 257
+        width: 21
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82779dc2b052b304a9a86e87b6b406d4
+      internalID: 1443376114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Street_Fighter_II_The_World_Warrior_Street_Fighter_II_Turbo_Hyper_Fighting_-_Ryu_Stage_World_Warrior__Unity_15
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 257
+        width: 21
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3be1641f0e170349be1e9cd7d4c4430
+      internalID: -867341850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Street_Fighter_II_The_World_Warrior_Street_Fighter_II_Turbo_Hyper_Fighting_-_Ryu_Stage_World_Warrior__Unity_16
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 272
+        width: 77
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dea0591e2eba5d14eba95b17c02720b7
+      internalID: 1695528081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Street_Fighter_II_The_World_Warrior_Street_Fighter_II_Turbo_Hyper_Fighting_-_Ryu_Stage_World_Warrior__Unity_17
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 259
+        width: 21
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 984bc287dc9bb5f408c429fcfe51cb9a
+      internalID: 1357490455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES_-_Street_Fighter_II_The_World_Warrior_Street_Fighter_II_Turbo_Hyper_Fighting_-_Ryu_Stage_World_Warrior__Unity_18
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 26
+        width: 566
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01f2a5543985757409e491422e4411f8
+      internalID: -774251415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SNES_-_Street_Fighter_II_The_World_Warrior_Street_Fighter_II_Turbo_Hyper_Fighting_-_Ryu_Stage_World_Warrior__Unity_0: -2020550553
+      SNES_-_Street_Fighter_II_The_World_Warrior_Street_Fighter_II_Turbo_Hyper_Fighting_-_Ryu_Stage_World_Warrior__Unity_1: -853807305
+      SNES_-_Street_Fighter_II_The_World_Warrior_Street_Fighter_II_Turbo_Hyper_Fighting_-_Ryu_Stage_World_Warrior__Unity_10: -1736947516
+      SNES_-_Street_Fighter_II_The_World_Warrior_Street_Fighter_II_Turbo_Hyper_Fighting_-_Ryu_Stage_World_Warrior__Unity_11: -2067916289
+      SNES_-_Street_Fighter_II_The_World_Warrior_Street_Fighter_II_Turbo_Hyper_Fighting_-_Ryu_Stage_World_Warrior__Unity_12: 1110738791
+      SNES_-_Street_Fighter_II_The_World_Warrior_Street_Fighter_II_Turbo_Hyper_Fighting_-_Ryu_Stage_World_Warrior__Unity_13: -416247973
+      SNES_-_Street_Fighter_II_The_World_Warrior_Street_Fighter_II_Turbo_Hyper_Fighting_-_Ryu_Stage_World_Warrior__Unity_14: 1443376114
+      SNES_-_Street_Fighter_II_The_World_Warrior_Street_Fighter_II_Turbo_Hyper_Fighting_-_Ryu_Stage_World_Warrior__Unity_15: -867341850
+      SNES_-_Street_Fighter_II_The_World_Warrior_Street_Fighter_II_Turbo_Hyper_Fighting_-_Ryu_Stage_World_Warrior__Unity_16: 1695528081
+      SNES_-_Street_Fighter_II_The_World_Warrior_Street_Fighter_II_Turbo_Hyper_Fighting_-_Ryu_Stage_World_Warrior__Unity_17: 1357490455
+      SNES_-_Street_Fighter_II_The_World_Warrior_Street_Fighter_II_Turbo_Hyper_Fighting_-_Ryu_Stage_World_Warrior__Unity_18: -774251415
+      SNES_-_Street_Fighter_II_The_World_Warrior_Street_Fighter_II_Turbo_Hyper_Fighting_-_Ryu_Stage_World_Warrior__Unity_2: 142502008
+      SNES_-_Street_Fighter_II_The_World_Warrior_Street_Fighter_II_Turbo_Hyper_Fighting_-_Ryu_Stage_World_Warrior__Unity_3: 779659721
+      SNES_-_Street_Fighter_II_The_World_Warrior_Street_Fighter_II_Turbo_Hyper_Fighting_-_Ryu_Stage_World_Warrior__Unity_4: -299635235
+      SNES_-_Street_Fighter_II_The_World_Warrior_Street_Fighter_II_Turbo_Hyper_Fighting_-_Ryu_Stage_World_Warrior__Unity_5: -2028879909
+      SNES_-_Street_Fighter_II_The_World_Warrior_Street_Fighter_II_Turbo_Hyper_Fighting_-_Ryu_Stage_World_Warrior__Unity_6: -1769991726
+      SNES_-_Street_Fighter_II_The_World_Warrior_Street_Fighter_II_Turbo_Hyper_Fighting_-_Ryu_Stage_World_Warrior__Unity_7: -1721021620
+      SNES_-_Street_Fighter_II_The_World_Warrior_Street_Fighter_II_Turbo_Hyper_Fighting_-_Ryu_Stage_World_Warrior__Unity_8: 890427078
+      SNES_-_Street_Fighter_II_The_World_Warrior_Street_Fighter_II_Turbo_Hyper_Fighting_-_Ryu_Stage_World_Warrior__Unity_9: 1523094396
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

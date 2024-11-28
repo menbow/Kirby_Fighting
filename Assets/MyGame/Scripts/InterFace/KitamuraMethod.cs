@@ -31,13 +31,13 @@ public static class KitamuraMethod
     /// </summary>
     /// /// <returns>置き換わったベクトルが正規化された値</returns>
 
-    public static Vector3 VectorReplaced(Vector3 dir, float Value)
+    public static Vector3 VectorReplaced2D(Vector3 dir, float Value)
     {
         Vector3 vector3 = dir;
         if (dir.x > 0) { vector3.x = Value; }
         if (dir.x < 0) { vector3.x = -Value; }
-        if (dir.z > 0) { vector3.z = Value; }
-        if (dir.z < 0) { vector3.z = -Value; }
+        if (dir.y > 0) { vector3.y = Value; }
+        if (dir.y < 0) { vector3.y = -Value; }
 
         return vector3.normalized;
     }

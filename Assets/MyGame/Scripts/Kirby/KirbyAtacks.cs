@@ -118,7 +118,7 @@ public class KirbyAtacks : MonoBehaviour
     {
         if (Input.GetButton("Atack"))
         {
-            Debug.Log(buttonHoldTime);
+            //Debug.Log(buttonHoldTime);
             buttonHoldTime += Time.deltaTime;
         }
 
