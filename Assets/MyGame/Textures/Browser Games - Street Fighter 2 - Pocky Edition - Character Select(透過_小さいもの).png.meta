@@ -1,0 +1,400 @@
+fileFormatVersion: 2
+guid: 2ad38361f8c0dba43a8d2e318069c8b8
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Browser Games - Street Fighter 2 - Pocky Edition - Character Select(\u900F\u904E_\u5C0F\u3055\u3044\u3082\u306E)_8"
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 86
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0898802bb39bff247b4ea6b5d4283b11
+      internalID: 817512677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Browser Games - Street Fighter 2 - Pocky Edition - Character Select(\u900F\u904E_\u5C0F\u3055\u3044\u3082\u306E)_9"
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 87
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b19b100c3f54c4243a5fcf2876fc72df
+      internalID: -1098847244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Browser Games - Street Fighter 2 - Pocky Edition - Character Select(\u900F\u904E_\u5C0F\u3055\u3044\u3082\u306E)_12"
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 73
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d73f1ff694d467419d729658f728f9a
+      internalID: -1219257730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Browser Games - Street Fighter 2 - Pocky Edition - Character Select(\u900F\u904E_\u5C0F\u3055\u3044\u3082\u306E)_14"
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 61
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46661186cbe8fa542a97e0e26b3b1711
+      internalID: 1304878228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Browser Games - Street Fighter 2 - Pocky Edition - Character Select(\u900F\u904E_\u5C0F\u3055\u3044\u3082\u306E)_18"
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 35
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba832c2c96c1e3d469583aff65f7c433
+      internalID: 837229166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Browser Games - Street Fighter 2 - Pocky Edition - Character Select(\u900F\u904E_\u5C0F\u3055\u3044\u3082\u306E)_28"
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 10
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf13d01bd8457874fafc47ebbc2d9dbb
+      internalID: -1964946902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Browser Games - Street Fighter 2 - Pocky Edition - Character Select(\u900F\u904E_\u5C0F\u3055\u3044\u3082\u306E)_0"
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 124
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97572c14bd91faa48bbce02e71884bf4
+      internalID: 1321632593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Browser Games - Street Fighter 2 - Pocky Edition - Character Select(\u900F\u904E_\u5C0F\u3055\u3044\u3082\u306E)_1"
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 86
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2376bb723effb63439d507dbea1eb6b3
+      internalID: 167804192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Browser Games - Street Fighter 2 - Pocky Edition - Character Select(\u900F\u904E_\u5C0F\u3055\u3044\u3082\u306E)_2"
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 48
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac8c22ecf4586ca4b84b554ac587e08c
+      internalID: 1969168230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Browser Games - Street Fighter 2 - Pocky Edition - Character Select(\u900F\u904E_\u5C0F\u3055\u3044\u3082\u306E)_3"
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 10
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b9078a76fcde4546a7126693b915087
+      internalID: 769955502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Browser Games - Street Fighter 2 - Pocky Edition - Character Select(\u900F\u904E_\u5C0F\u3055\u3044\u3082\u306E)_4"
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 9
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d81fac5a64cdeb144a246f09c1ef81f7
+      internalID: 518311879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "Browser Games - Street Fighter 2 - Pocky Edition - Character Select(\u900F\u904E_\u5C0F\u3055\u3044\u3082\u306E)_0": 1321632593
+      "Browser Games - Street Fighter 2 - Pocky Edition - Character Select(\u900F\u904E_\u5C0F\u3055\u3044\u3082\u306E)_1": 167804192
+      "Browser Games - Street Fighter 2 - Pocky Edition - Character Select(\u900F\u904E_\u5C0F\u3055\u3044\u3082\u306E)_10": -1850284411
+      "Browser Games - Street Fighter 2 - Pocky Edition - Character Select(\u900F\u904E_\u5C0F\u3055\u3044\u3082\u306E)_11": -1899698885
+      "Browser Games - Street Fighter 2 - Pocky Edition - Character Select(\u900F\u904E_\u5C0F\u3055\u3044\u3082\u306E)_12": -1219257730
+      "Browser Games - Street Fighter 2 - Pocky Edition - Character Select(\u900F\u904E_\u5C0F\u3055\u3044\u3082\u306E)_13": -42264393
+      "Browser Games - Street Fighter 2 - Pocky Edition - Character Select(\u900F\u904E_\u5C0F\u3055\u3044\u3082\u306E)_14": 1304878228
+      "Browser Games - Street Fighter 2 - Pocky Edition - Character Select(\u900F\u904E_\u5C0F\u3055\u3044\u3082\u306E)_15": 28285403
+      "Browser Games - Street Fighter 2 - Pocky Edition - Character Select(\u900F\u904E_\u5C0F\u3055\u3044\u3082\u306E)_16": 1745074390
+      "Browser Games - Street Fighter 2 - Pocky Edition - Character Select(\u900F\u904E_\u5C0F\u3055\u3044\u3082\u306E)_17": 2025982510
+      "Browser Games - Street Fighter 2 - Pocky Edition - Character Select(\u900F\u904E_\u5C0F\u3055\u3044\u3082\u306E)_18": 837229166
+      "Browser Games - Street Fighter 2 - Pocky Edition - Character Select(\u900F\u904E_\u5C0F\u3055\u3044\u3082\u306E)_19": 1960457462
+      "Browser Games - Street Fighter 2 - Pocky Edition - Character Select(\u900F\u904E_\u5C0F\u3055\u3044\u3082\u306E)_2": 1969168230
+      "Browser Games - Street Fighter 2 - Pocky Edition - Character Select(\u900F\u904E_\u5C0F\u3055\u3044\u3082\u306E)_20": 600607818
+      "Browser Games - Street Fighter 2 - Pocky Edition - Character Select(\u900F\u904E_\u5C0F\u3055\u3044\u3082\u306E)_21": -1725249447
+      "Browser Games - Street Fighter 2 - Pocky Edition - Character Select(\u900F\u904E_\u5C0F\u3055\u3044\u3082\u306E)_22": -347222278
+      "Browser Games - Street Fighter 2 - Pocky Edition - Character Select(\u900F\u904E_\u5C0F\u3055\u3044\u3082\u306E)_23": -903253849
+      "Browser Games - Street Fighter 2 - Pocky Edition - Character Select(\u900F\u904E_\u5C0F\u3055\u3044\u3082\u306E)_24": 1062073014
+      "Browser Games - Street Fighter 2 - Pocky Edition - Character Select(\u900F\u904E_\u5C0F\u3055\u3044\u3082\u306E)_25": 1811717039
+      "Browser Games - Street Fighter 2 - Pocky Edition - Character Select(\u900F\u904E_\u5C0F\u3055\u3044\u3082\u306E)_26": 2017626409
+      "Browser Games - Street Fighter 2 - Pocky Edition - Character Select(\u900F\u904E_\u5C0F\u3055\u3044\u3082\u306E)_27": -411167410
+      "Browser Games - Street Fighter 2 - Pocky Edition - Character Select(\u900F\u904E_\u5C0F\u3055\u3044\u3082\u306E)_28": -1964946902
+      "Browser Games - Street Fighter 2 - Pocky Edition - Character Select(\u900F\u904E_\u5C0F\u3055\u3044\u3082\u306E)_3": 769955502
+      "Browser Games - Street Fighter 2 - Pocky Edition - Character Select(\u900F\u904E_\u5C0F\u3055\u3044\u3082\u306E)_4": 518311879
+      "Browser Games - Street Fighter 2 - Pocky Edition - Character Select(\u900F\u904E_\u5C0F\u3055\u3044\u3082\u306E)_5": -58873902
+      "Browser Games - Street Fighter 2 - Pocky Edition - Character Select(\u900F\u904E_\u5C0F\u3055\u3044\u3082\u306E)_6": -1882057240
+      "Browser Games - Street Fighter 2 - Pocky Edition - Character Select(\u900F\u904E_\u5C0F\u3055\u3044\u3082\u306E)_7": 410762738
+      "Browser Games - Street Fighter 2 - Pocky Edition - Character Select(\u900F\u904E_\u5C0F\u3055\u3044\u3082\u306E)_8": 817512677
+      "Browser Games - Street Fighter 2 - Pocky Edition - Character Select(\u900F\u904E_\u5C0F\u3055\u3044\u3082\u306E)_9": -1098847244
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

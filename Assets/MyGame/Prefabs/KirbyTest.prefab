@@ -14,8 +14,10 @@ GameObject:
   - component: {fileID: 7816021200807562314}
   - component: {fileID: 6036857436523399610}
   - component: {fileID: 4313648504023719832}
+  - component: {fileID: 6746282699904508412}
   - component: {fileID: 122989648093698728}
-  m_Layer: 0
+  - component: {fileID: 4686866606582907048}
+  m_Layer: 8
   m_Name: KirbyTest
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -174,7 +176,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveable: 0
-  moveSpeed: 2
+  moveSpeed: 5
   floatMoveSpeed: 0
   dashSpeed: 10
   jumpForce: 10
@@ -209,6 +211,23 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &6746282699904508412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7956913042947990030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b42bb9ef36a1994ba6325101ddb0af0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerorEnemy: 0
+  maxHP: 10
+  invincibleTime: 1
+  hitEffect: {fileID: 0}
+  debugLog: 0
 --- !u!114 &122989648093698728
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -221,3 +240,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 334956eb473e49749809ae7f8bc61e15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &4686866606582907048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7956913042947990030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d8606fa0d0e24b4e9f763267c7fb58d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jabPrefab: {fileID: 5141211049869700690, guid: dd6a9dec4dce1f148989c4a137a334b4, type: 3}
+  hardPunchPrefab: {fileID: 9163132693906974756, guid: 49525adb6255eff488c390be88874db7, type: 3}
+  tonoriSpeed: 4
