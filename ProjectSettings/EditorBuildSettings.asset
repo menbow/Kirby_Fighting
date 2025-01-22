@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/MyGame/Scenes/Kirby_Street_fighter.unity
     guid: 54985cf4d383d484dbb07f8305ad8208
+  - enabled: 1
+    path: Assets/MyGame/Scenes/Kirby_1.unity
+    guid: 24beeac39844fd74ca2c546cf56dfd38
   m_configObjects: {}

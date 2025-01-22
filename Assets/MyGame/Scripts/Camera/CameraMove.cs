@@ -8,6 +8,8 @@ public class CameraMove : MonoBehaviour
     private Transform playerTf;
     [SerializeField] float cameraBottom = 1f;
     [SerializeField] float cameraSpeed = 2f;
+    //カメラの移動上限
+    [SerializeField] float cameraXmax = 0;
     [SerializeField] private bool moveY = false;  //縦スクロールにしたいとき
     [SerializeField] private bool moveX = true;
     [Header("Rigidbody系の移動ならFixedで")]
@@ -32,6 +34,12 @@ public class CameraMove : MonoBehaviour
         if (tf.position.x < 0)
         {
             tf.position = new Vector3(0, transform.position.y, tf.position.z);
+        }
+
+        //カメラの移動上限にきたら止める
+        if (tf.position.x > cameraXmax)
+        {
+            tf.position = new Vector3(cameraXmax, transform.position.y, tf.position.z);
         }
 
         if (tf.position.y <= cameraBottom)

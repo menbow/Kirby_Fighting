@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class ChangeScene : MonoBehaviour
+public class FadeOutTimeChangeScene : MonoBehaviour
 {
     //フェードアウト用のImageコンポーネント
     public Image fadeImage;
