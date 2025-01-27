@@ -12,8 +12,7 @@ public class FadeInTimeChangeScene : MonoBehaviour
     //フェードアウトの時間
     public float fadeTime = 2f;
 
-    //sキーが押されたらStartFadeOutへ移動
-    void Update()
+    void Start()
     {
         StartCoroutine(StartFadeOut());
     }

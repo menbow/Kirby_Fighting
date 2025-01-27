@@ -31,7 +31,6 @@ public class BackGround : MonoBehaviour
     {
         //プレイヤーの座標取得
         Vector2 mainCameraPosition = mainCamera.transform.position;
-        Debug.Log("MainCameraPosition:"+ mainCameraPosition);
 
         if(m_material)
         {
