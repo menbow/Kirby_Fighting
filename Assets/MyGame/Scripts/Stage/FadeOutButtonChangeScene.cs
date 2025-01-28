@@ -6,16 +6,14 @@ using UnityEngine.SceneManagement;
 
 public class FadeOutButtonChangeScene : MonoBehaviour
 {
-    //フェードアウト用のImageコンポーネント
     public Image fadeImage;
-
-    //フェードアウトの時間
     public float fadeTime = 2f;
+    [SerializeField] string keyButtom;
+    [SerializeField] string nextScene;
 
-    //sキーが押されたらStartFadeOutへ移動
     void Update()
     {
-        if (Input.GetKeyDown("s"))
+        if (Input.GetKeyDown(keyButtom))
         {
             StartCoroutine(StartFadeOut());
         }
@@ -24,7 +22,7 @@ public class FadeOutButtonChangeScene : MonoBehaviour
     IEnumerator StartFadeOut()
     {
         yield return StartCoroutine(FadeOut());
-        SceneManager.LoadScene("Kirby_1", LoadSceneMode.Single);
+        SceneManager.LoadScene(nextScene, LoadSceneMode.Single);
     }
 
     //フェードアウト処理

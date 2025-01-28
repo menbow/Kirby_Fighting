@@ -2016,6 +2016,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fadeImage: {fileID: 255652709}
   fadeTime: 1
+  keyButtom: s
+  nextScene: Kirby_1
 --- !u!1 &1345112714
 GameObject:
   m_ObjectHideFlags: 0
