@@ -2,12 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Door : MonoBehaviour
 {
     bool enterFrag = false;
     GameObject player;
     KirbyMove kirby;
+
+    [SerializeField] string sceneName;
+    [SerializeField] Image blackScreen;
+    [SerializeField] float fadeTime = 1f;
 
     void Start()
     {
@@ -20,6 +25,7 @@ public class Door : MonoBehaviour
         if (enterFrag && kirby.InputV() == 1)
         {
             Debug.Log("•”‰®ˆÚ“®");
+            StartCoroutine(KitamuraMethod.FadeOutSceneChange(blackScreen, fadeTime, sceneName));
         }
     }
 
@@ -29,6 +35,7 @@ public class Door : MonoBehaviour
         {
             //Debug.LogWarning("enter");
             enterFrag = true;
+
         }
     }
 
