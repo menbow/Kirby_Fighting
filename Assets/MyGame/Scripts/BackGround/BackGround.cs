@@ -5,15 +5,12 @@ using UnityEngine.UI;
 
 public class BackGround : MonoBehaviour
 {
-    private const float k_maxLength = 1f;
     //画像データを取得：Unity専用命令っぽい
     private const string k_propName = "_MainTex";
 
-    [SerializeField]
-    private Vector2 m_offsetSpeed;
-
-    [SerializeField]
-    private GameObject mainCamera;
+    [SerializeField] private GameObject mainCamera;
+    [SerializeField] private float mainCameraXMax = 0;
+    [SerializeField] private float endOffset = 0;
 
     private Material m_material;
 
@@ -29,20 +26,28 @@ public class BackGround : MonoBehaviour
 
     private void Update()
     {
-        //プレイヤーの座標取得
+        //カメラの座標取得
         Vector2 mainCameraPosition = mainCamera.transform.position;
+        Vector2 offset = Vector2.zero;
 
         if(m_material)
         {
-            //xとyの値が0～1でリピートするようにする
-            //var x = Mathf.Repeat(Time.time * m_offsetSpeed.x, k_maxLength);
-            //var y = Mathf.Repeat(Time.time * m_offsetSpeed.y, k_maxLength);
-
-            //プレイヤーが動いた分だけ背景スクロール
+            //カメラが動いた分だけ背景スクロール
             float x = mainCameraPosition.x / 60;
             float y = 0;
 
-            Vector2 offset = new Vector2(x, y);
+            if (mainCameraPosition.x < 0)
+            {
+                x = 0;
+            }
+            else if(mainCameraPosition.x > mainCameraXMax)
+            {
+                x = endOffset;
+            }
+     
+            //移動量
+            offset = new Vector2(x, y);
+            //Debug.Log("offset値：" + offset);
             m_material.SetTextureOffset(k_propName, offset);
         }
     }

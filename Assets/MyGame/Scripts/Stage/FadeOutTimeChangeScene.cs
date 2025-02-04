@@ -10,7 +10,7 @@ public class FadeOutTimeChangeScene : MonoBehaviour
     public Image fadeImage;
 
     //フェードアウトの時間
-    public float fadeDuration = 2f;
+    public float fadeTime = 2f;
 
     //切り替えるシーンの名前の配列
     public string[] sceneNames;
@@ -32,7 +32,7 @@ public class FadeOutTimeChangeScene : MonoBehaviour
             yield return new WaitForSeconds(delay);
 
             //フェードアウトを開始
-            yield return StartCoroutine(FadeOut());
+            yield return StartCoroutine(KitamuraMethod.FadeOut(fadeImage,fadeTime));
 
             //次のシーンに切り替え
             SceneManager.LoadScene(sceneNames[currentSceneIndex]);
@@ -40,30 +40,5 @@ public class FadeOutTimeChangeScene : MonoBehaviour
             //シーンを更新
             currentSceneIndex++;
         }   
-    }
-
-    IEnumerator FadeOut()
-    {
-        //経過時間
-        float elapsedTime = 0f;
-
-        //フェードアウトさせるImageの色を取得
-        Color color = fadeImage.color;
-
-        //経過時間がフェードアウト時間に達するまでループ
-        while(elapsedTime < fadeDuration)
-        {
-            //経過時間の更新
-            elapsedTime += Time.deltaTime;
-
-            //Alpha値(透明度)を更新
-            color.a = Mathf.Clamp01(elapsedTime / fadeDuration);
-
-            //更新された色をImageに適用
-            fadeImage.color = color;
-
-            //次のフレームまで一時停止
-            yield return null; 
-        }
     }
 }

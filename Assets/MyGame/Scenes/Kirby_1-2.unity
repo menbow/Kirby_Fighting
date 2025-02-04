@@ -3373,6 +3373,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jabPrefab: {fileID: 5141211049869700690, guid: dd6a9dec4dce1f148989c4a137a334b4, type: 3}
   hardPunchPrefab: {fileID: 9163132693906974756, guid: 49525adb6255eff488c390be88874db7, type: 3}
+  tonoriHitBox: {fileID: 0}
   tonoriSpeed: 4
 --- !u!114 &1824724967
 MonoBehaviour:
@@ -3389,7 +3390,9 @@ MonoBehaviour:
   playerorEnemy: 0
   maxHP: 10
   invincibleTime: 1
+  downTime: 1.5
   hitEffect: {fileID: 0}
+  deathEffect: {fileID: 0}
   debugLog: 0
 --- !u!1001 &1881847661
 PrefabInstance:

@@ -19,11 +19,11 @@ public class FadeInTimeChangeScene : MonoBehaviour
 
     IEnumerator StartFadeOut()
     {
-        yield return StartCoroutine(FadeOut());
+        yield return StartCoroutine(FadeIn());
     }
-
+    
     //フェードアウト処理
-    IEnumerator FadeOut()
+    IEnumerator FadeIn()
     {
         //経過時間
         float elapsedTime = 0;
